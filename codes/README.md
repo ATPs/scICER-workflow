@@ -1,21 +1,24 @@
-# Single-Cell Clustering Scripts
+# scICER Workflow Scripts
 
-This directory contains R scripts for single-cell RNA-seq clustering analysis using scICER.
+This directory follows the structure of the original `ATPs/scICER-workflow` repository and contains simplified example workflows for scICER.
 
-## Scripts
+## Core scripts
 
-1. **run_scICER.R**  
-   Runs scICER clustering on a Seurat object. Outputs IC plot, ECS score table, and updated Seurat object with optimal clusters.
-   https://github.com/yerry77/scICER-workflow/blob/main/codes/run_scICER.R
+1. `run_scICER.R`
+   General single-sample scICER example for RNA, SCT, or scLENS-style inputs.
 
-2. **Harmony integration + scICER**  
-   Performs **Harmony integration**, UMAP visualization, and scICER clustering on a Seurat object. Outputs UMAP plots, IC plot, ECS score table, and updated Seurat object with optimal clusters.
-   https://github.com/yerry77/scICER-workflow/blob/main/codes/Harmony%20integration%20%2B%20scICER
+2. `harmony_integration_scICER.R`
+   Harmony-based integration followed by scICER.
 
-4. **scVI integration + scICER**  
-   Performs **scVI-based integration**, UMAP visualization, and scICER clustering on a Seurat object containing scVI latent space. Outputs UMAP plots, IC plot, ECS score table, and updated Seurat object with optimal clusters.
-   https://github.com/yerry77/scICER-workflow/blob/main/codes/scVI%20integration%20%2B%20scICER
+3. `scvi_integration_scICER.R`
+   scVI-based integration followed by scICER.
 
-## Data information and conversion instructions
-These workflows use publicly available single-cell RNA-seq datasets. Details on the data sources, preprocessing, and conversion to Seurat objects are provided in the repository’s data documentation:
-https://github.com/yerry77/scICER-workflow/blob/main/data/README.md
+The scripts now focus on the analysis steps themselves:
+
+- generic input arguments instead of local paths;
+- no manuscript-specific file names;
+- no figure-export steps by default.
+
+## Figure scripts
+
+The manuscript plotting scripts are stored separately in `codes/figures/` so that the original workflow examples remain easy to find.

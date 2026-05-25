@@ -1,194 +1,171 @@
 #!/usr/bin/env Rscript
-# ===============================================================
-# Input:  CSV/CSV.GZ expression matrix OR qs file OR h5ad file
-# Method: RNA, SCT, or scLENS
-# graph: SNN,KNN,or UMAP
-# Output: UMAP plots, IC plot, clustering results (tsv, qs)
-# ===============================================================
 
 library(Seurat)
-library(ggplot2)
 library(qs)
-library(readr)
-library(cowplot)
-library(tidyverse)
-library(mclust)
 library(scICER)
 library(ClustAssess)
 library(uwot)
 library(SeuratDisk)
 library(reticulate)
+library(patchwork)
 
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) < 2) {
-  stop("Usage: Rscript run_scICER_single_sample.R <input_file> <RNA|SCT|scLENS>")
+  stop("Usage: Rscript codes/run_scICER.R <input_file> <RNA|SCT|SCLENS> [graph_name]")
 }
-file_path <- args[1]
-method <- toupper(args[2])  # RNA, SCT, scLENS
 
-output_base_dir <- "/output_dir/"
-nthreads_qread <- 40
-sample_name <- gsub('\\.csv\\.gz$|\\.qs$|\\.h5ad$', '', basename(file_path))
-message("Processing file: ", file_path, " | Method: ", method)
+input_file <- args[1]
+method <- toupper(args[2])
+graph_name <- if (length(args) >= 3) args[3] else NULL
 
-# Load input
-if (method %in% c("RNA", "SCT")) {
-  
-  if (grepl("\\.qs$", file_path)) {
-    seurat_obj <- qs::qread(file_path, nthreads = nthreads_qread)
-  } else if (grepl("\\.csv(\\.gz)?$", file_path)) {
-    expr_matrix <- read.csv(file_path, row.names = 1, check.names = FALSE)
-    seurat_obj <- CreateSeuratObject(counts = expr_matrix, project = sample_name)
+build_umap_graph <- function(object, reduction = "pca") {
+  embedding <- Embeddings(object, reduction = reduction)
+  umap_result <- uwot::umap(
+    embedding,
+    ret_model = TRUE,
+    ret_extra = c("fgraph"),
+    min_dist = 0.1,
+    metric = "cosine",
+    n_neighbors = 15L,
+    n_components = 2L
+  )
+
+  object[["umap"]] <- CreateDimReducObject(
+    embeddings = umap_result$embedding,
+    key = "UMAP_",
+    assay = DefaultAssay(object)
+  )
+
+  rownames(umap_result$fgraph) <- rownames(object@meta.data)
+  colnames(umap_result$fgraph) <- rownames(object@meta.data)
+  object[["umap_graph"]] <- as.Graph(umap_result$fgraph)
+  object
+}
+
+score_scice <- function(scice_results, metadata, threshold = 1.005) {
+  score_table <- data.frame(
+    cluster_number = scice_results$n_cluster,
+    ic_score = scice_results$ic,
+    is_consistent = scice_results$ic <= threshold
+  )
+
+  label_df <- get_robust_labels(scice_results, return_seurat = FALSE, threshold = Inf)
+  if ("celltype" %in% colnames(metadata)) {
+    label_df$celltype <- metadata$celltype
+    for (k in score_table$cluster_number) {
+      cluster_col <- paste0("clusters_", k)
+      if (cluster_col %in% names(label_df)) {
+        score_table[score_table$cluster_number == k, "ECS_score"] <- element_sim(
+          label_df$celltype,
+          label_df[[cluster_col]]
+        )
+      }
+    }
+  }
+
+  consistent <- subset(score_table, is_consistent)
+  if (nrow(consistent) == 0) {
+    optimal_cluster <- score_table$cluster_number[which.min(score_table$ic_score)]
+  } else if ("ECS_score" %in% colnames(consistent) && any(!is.na(consistent$ECS_score))) {
+    optimal_cluster <- consistent$cluster_number[which.max(consistent$ECS_score)]
   } else {
-    stop("Unsupported file type for RNA/SCT. Use .csv/.csv.gz or .qs")
+    optimal_cluster <- consistent$cluster_number[which.min(consistent$ic_score)]
   }
-  
-  # Preprocessing
+
+  list(score_table = score_table, optimal_cluster = optimal_cluster)
+}
+
+if (method %in% c("RNA", "SCT")) {
+  if (grepl("\\.qs$", input_file, ignore.case = TRUE)) {
+    sample_obj <- qs::qread(input_file)
+  } else if (grepl("\\.csv(\\.gz)?$", input_file, ignore.case = TRUE)) {
+    expr_matrix <- read.csv(input_file, row.names = 1, check.names = FALSE)
+    sample_obj <- CreateSeuratObject(counts = expr_matrix, project = tools::file_path_sans_ext(basename(input_file)))
+  } else {
+    stop("RNA and SCT examples expect a .qs, .csv, or .csv.gz input.")
+  }
+
   if (method == "RNA") {
-    message("Running Seurat RNA normalization pipeline...")
-    seurat_obj <- NormalizeData(seurat_obj)
-    seurat_obj <- FindVariableFeatures(seurat_obj)  
-    seurat_obj <- ScaleData(seurat_obj)
-    
-  } else if (method == "SCT") {
-    message("Running SCTransform pipeline (regressing out percent.mt)...")
-    seurat_obj <- PercentageFeatureSet(seurat_obj, pattern = "^MT-", col.name = "percent.mt")
-    seurat_obj <- SCTransform(seurat_obj, vars.to.regress = "percent.mt", verbose = FALSE)
+    sample_obj <- NormalizeData(sample_obj)
+    sample_obj <- FindVariableFeatures(sample_obj)
+    sample_obj <- ScaleData(sample_obj)
+  } else {
+    sample_obj <- PercentageFeatureSet(sample_obj, pattern = "^MT-", col.name = "percent.mt")
+    sample_obj <- SCTransform(sample_obj, vars.to.regress = "percent.mt", verbose = FALSE)
   }
-  
-  seurat_obj <- RunPCA(seurat_obj)
-  seurat_obj <- RunUMAP(seurat_obj, dims = 1:30)
-  seurat_obj <- FindNeighbors(seurat_obj, dims = 1:30)
-  
+
+  sample_obj <- RunPCA(sample_obj)
+  dims_to_use <- seq_len(min(30, ncol(Embeddings(sample_obj, "pca"))))
+  sample_obj <- RunUMAP(sample_obj, dims = dims_to_use)
+  sample_obj <- FindNeighbors(sample_obj, dims = dims_to_use)
+  sample_obj <- build_umap_graph(sample_obj, reduction = "pca")
+  default_graph <- if (method == "RNA") "RNA_snn" else "SCT_snn"
 } else if (method == "SCLENS") {
-  
-  # Convert h5ad -> h5seurat
-  if (!grepl("\\.h5ad$", file_path)) stop("scLENS method requires h5ad input")
-  
-  Convert(file_path, dest = "h5seurat", overwrite = TRUE)
-  file_h5seurat <- sub("\\.h5ad$", ".h5seurat", file_path)
-  seurat_obj <- LoadH5Seurat(file_h5seurat, meta.data = FALSE, misc = TRUE)
-  
-  # Use Python to read obs metadata
-  sc <- import("scanpy")
-  adata <- sc$read_h5ad(file_path)
-  seurat_obj <- AddMetaData(seurat_obj, metadata = adata$obs)
-  
-  # PCA-based graph
-  seurat_obj <- FindNeighbors(seurat_obj, dims = 1:dim(seurat_obj@reductions$pca)[2], reduction = "pca")
-  
+  if (!grepl("\\.h5ad$", input_file, ignore.case = TRUE)) {
+    stop("The SCLENS example expects an .h5ad input file.")
+  }
+
+  python_bin <- Sys.getenv("SCLENS_PYTHON", unset = "")
+  if (nzchar(python_bin)) {
+    reticulate::use_python(python_bin, required = TRUE)
+  }
+
+  SeuratDisk::Convert(input_file, dest = "h5seurat", overwrite = TRUE)
+  h5seurat_file <- sub("\\.h5ad$", ".h5seurat", input_file, ignore.case = TRUE)
+  sample_obj <- LoadH5Seurat(h5seurat_file, meta.data = FALSE, misc = TRUE)
+
+  scanpy <- reticulate::import("scanpy")
+  adata <- scanpy$read_h5ad(input_file)
+  sample_obj <- AddMetaData(sample_obj, metadata = py_to_r(adata$obs))
+
+  dims_to_use <- seq_len(ncol(Embeddings(sample_obj, "pca")))
+  sample_obj <- FindNeighbors(sample_obj, reduction = "pca", dims = dims_to_use)
+  sample_obj <- build_umap_graph(sample_obj, reduction = "pca")
+  default_graph <- "RNA_snn"
 } else {
-  stop("Invalid method. Use RNA, SCT, or scLENS")
+  stop("Method must be one of RNA, SCT, or SCLENS.")
 }
 
-# UMAP graph construction 
-pca <- Embeddings(seurat_obj, reduction = "pca")
-umap_result <- uwot::umap(
-  pca,
-  ret_model = TRUE,
-  ret_extra = c("fgraph"),
-  min_dist = 0.1,
-  metric = "cosine",
-  n_neighbors = 15L,
-  n_components = 2L
-)
-umap_coords <- umap_result$embedding
-umap_graph <- umap_result$fgraph
-seurat_obj[["umap"]] <- CreateDimReducObject(
-  embeddings = umap_coords,
-  key = "UMAP_",
-  assay = DefaultAssay(seurat_obj)
-)
-rownames(umap_graph) <- rownames(seurat_obj@meta.data)
-colnames(umap_graph) <- rownames(seurat_obj@meta.data)
-seurat_obj[["umap_graph"]] <- as.Graph(umap_graph)
-
-
-# Create output directory
-output_dir <- file.path(output_base_dir, sample_name, method)
-dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
-
-# Optional plots: UMAP by celltype
-if ("celltype" %in% colnames(seurat_obj@meta.data)) {
-  pdf(file.path(output_dir, paste0(sample_name, "_", method, "_umap.celltype.pdf")), width = 7.5, height = 6)
-  print(DimPlot(seurat_obj, group.by = "celltype"))
-  dev.off()
+graph_name <- if (is.null(graph_name)) default_graph else graph_name
+if (!graph_name %in% names(sample_obj@graphs)) {
+  stop("Requested graph not found. Available graphs: ", paste(names(sample_obj@graphs), collapse = ", "))
 }
 
-# Run scICER clustering
-sample_obj <- seurat_obj
 scice_results <- scICE_clustering(
   object = sample_obj,
   cluster_range = 2:20,
-  remove_threshold = 1.005,  # IC threshold for cluster consistency
-                             # Clusters with IC > 1.005 are considered unstable and may be removed.
-                             # Default 1.005 is an empirical value; you can adjust it depending on your dataset.
-  n_workers = 80,
+  remove_threshold = 1.005,
+  n_workers = 8,
   n_trials = 15,
   n_bootstrap = 100,
   seed = 123,
   verbose = TRUE,
-  graph_name = "RNA_snn"  # Graph to use for clustering:
-                         # RNA method:
-                         #   "RNA_snn"   - RNA method, SNN graph
-                         #   "RNA_nn"    - RNA method, KNN graph
-                         #   "umap_graph"  - RNA method, UMAP graph
-                         # SCT method:
-                         #   "SCT_snn"   - SCT method, SNN graph
-                         #   "SCT_nn"    - SCT method, KNN graph
-                         #   "umap_graph"- SCT method, UMAP graph
-                         # scLENS method:
-                         #   "RNA_snn"   - SNN graph from scLENS preprocessing
-                         #   "RNA_nn"    - KNN graph from scLENS preprocessing
-                         #   "umap_graph"- UMAP graph from scLENS preprocessing
-
+  graph_name = graph_name
 )
 
-# Save IC plot
-ic_plot <- plot_ic(scice_results, threshold = 1.005)
-ggsave(filename = file.path(output_dir, paste0(sample_name, "_", method, "_scICER_IC_plot.pdf")),
-       plot = ic_plot, device = "pdf", width = 7.5, height = 4.5)
-write_tsv(ic_plot$data, file.path(output_dir, paste0(sample_name, "_", method, "_scICER_plot_data.tsv")))
-
-# Collect IC + ECS scores
-df <- data.frame(
-  cluster_number = scice_results$n_cluster,
-  ic_score = scice_results$ic
-)
-df$is_consistent <- df$ic_score <= 1.005
-
-seurat_obj.df <- get_robust_labels(scice_results, return_seurat = FALSE, threshold = Inf)
-if ("celltype" %in% colnames(seurat_obj@meta.data)) {
-  seurat_obj.df$celltype <- seurat_obj@meta.data$celltype
-  for (k in 2:20) {
-    cluster_col <- paste0("clusters_", k)
-    if (cluster_col %in% names(seurat_obj.df)) {
-      df[df$cluster_number == k, "ECS_score"] <- element_sim(seurat_obj.df$celltype, seurat_obj.df[[cluster_col]])
-    } else {
-      df[df$cluster_number == k, "ECS_score"] <- NA
-    }
-  }
-}
-
-# Save results
+scored <- score_scice(scice_results, sample_obj@meta.data)
 sample_obj <- get_robust_labels(scice_results, return_seurat = TRUE, threshold = Inf)
-write_tsv(df, file.path(output_dir, paste0(sample_name, "_", method, "_scICER_cluster_data.tsv")))
-qs::qsave(sample_obj, file = file.path(output_dir, paste0(sample_name, "_", method, "_seurat.scICER.qs")), nthreads = nthreads_qread)
+sample_obj$optimal_cluster <- sample_obj@meta.data[[paste0("clusters_", scored$optimal_cluster)]]
 
-# Generate clustering UMAPs
-dimplot_list <- list()
-for (k in 2:20) {
-  col_name <- paste0("clusters_", k)
-  if (col_name %in% colnames(sample_obj@meta.data)) {
-    dimplot_list[[col_name]] <- DimPlot(sample_obj, group.by = col_name, label = TRUE) +
-      ggtitle(paste("Clusters:", k))
-  }
-}
+plots <- list(
+  ic_plot = plot_ic(scice_results, threshold = 1.005),
+  cluster_plot = DimPlot(sample_obj, reduction = "umap", group.by = "optimal_cluster", label = TRUE)
+)
+
 if ("celltype" %in% colnames(sample_obj@meta.data)) {
-  dimplot_list[["celltype"]] <- DimPlot(sample_obj, group.by = "celltype", label = TRUE) +
-    ggtitle("celltype")
+  plots$comparison_plot <- DimPlot(sample_obj, reduction = "umap", group.by = "celltype", label = TRUE) +
+    DimPlot(sample_obj, reduction = "umap", group.by = "optimal_cluster", label = TRUE)
 }
-dimplot_grid <- cowplot::plot_grid(plotlist = dimplot_list, ncol = 5)
-ggsave(filename = file.path(output_dir, paste0(sample_name, "_", method, "_scICER_DimPlot_grid.pdf")),
-       plot = dimplot_grid, device = "pdf", width = 32, height = 16)
 
+message("Optimal cluster: ", scored$optimal_cluster)
+print(scored$score_table)
+
+result <- list(
+  seurat_object = sample_obj,
+  scice_results = scice_results,
+  score_table = scored$score_table,
+  optimal_cluster = scored$optimal_cluster,
+  plots = plots
+)
+
+invisible(result)
