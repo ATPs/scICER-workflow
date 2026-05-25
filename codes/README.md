@@ -7,10 +7,10 @@ This directory follows the structure of the original `ATPs/scICER-workflow` repo
 1. `run_scICER.R`
    General single-sample scICER example for RNA, SCT, or scLENS-style inputs.
 
-2. `Harmony integration + scICER`
+2. `harmony_integration_scICER.R`
    Harmony-based integration followed by scICER.
 
-3. `scVI integration + scICER`
+3. `scvi_integration_scICER.R`
    scVI-based integration followed by scICER.
 
 The scripts now focus on the analysis steps themselves:
