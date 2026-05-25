@@ -16,8 +16,8 @@ The `codes/` directory contains example R scripts demonstrating the use of **scI
 
 The workflow examples include:
 - `codes/run_scICER.R`
-- `codes/Harmony integration + scICER`
-- `codes/scVI integration + scICER`
+- `codes/harmony_integration_scICER.R`
+- `codes/scvi_integration_scICER.R`
 
 These scripts are written as reusable examples and use generic inputs rather than manuscript-specific output paths.
 
