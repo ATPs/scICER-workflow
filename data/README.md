@@ -59,11 +59,11 @@ These tables were prepared from the runtime benchmark summaries and the memory m
 
 ### Included files
 
-- `tables/runtime/scaling/runtime_summary_scicer.tsv`
-  Runtime and peak-memory summary across datasets and thread counts for the Figure S7A-B comparison.
+- `tables/runtime/benchmark/resource_traces/scICER/`
+  Resource-monitor traces for scICER runs across the benchmark datasets and thread counts. Each file records the run's CPU and memory measurements and summary statistics, including runtime, peak and average CPU usage, and peak PSS memory.
 
-- `tables/runtime/scaling/runtime_summary_scice_reference.tsv`
-  Reference scICE timing table used in the total-time panel of Figure S7A-B.
+- `tables/runtime/benchmark/resource_traces/scICE/`
+  Resource-monitor traces for the reference scICE runs across the same datasets and thread counts. These files also include CPU and memory measurements and run-summary statistics, including runtime, peak and average CPU usage, and peak PSS memory.
 
 - `tables/runtime/pancreas/full_usage_memory.tsv`
   Memory trace for the full-object pancreas run.
@@ -79,8 +79,8 @@ These tables were prepared from the runtime benchmark summaries and the memory m
 
 ### Used by
 
-- `codes/figures/FigureS7/FigS7_AB_runtime_scaling.R`
-- `codes/figures/FigureS7/FigS7_C_dietseurat_memory.R`
+- `codes/figures/FigureS7/FigS7_ABC_runtime_scaling.R`
+- `codes/figures/FigureS7/FigS7_D_dietseurat_memory.R`
 
 ## 4. scICE benchmark datasets
 
