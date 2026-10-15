@@ -120,7 +120,8 @@ Download from Figshare:
 
 - `codes/figures/Figure1/Fig1_EFGJK_harmony_pancreas.R`
 - `codes/figures/Figure1/Fig1_HILM_scvi_pancreas.R`
-- `codes/figures/FigureS5/FigS5_original_vs_sclens_pancreas.R`
+- `codes/figures/FigureS5/FigS5ABCD_original_vs_sclens_pancreas.R`
+- `codes/figures/FigureS5/FigS5E_celltype_correspondence_pancreas.R`
 
 ## 6. Large pancreas atlas from GSE221156
 
