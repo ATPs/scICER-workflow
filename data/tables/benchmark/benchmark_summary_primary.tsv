@@ -1,529 +1,529 @@
-sample	sample_type	method	graph	Optimal_Cluster_by_ECS	ic_score	is_consistent	ECS_score	consistent_cluster	consistent_cluster_count	cluster_number_count	Consistent_Clustering_Ratio	folder	description
-Koh	Data with Hierarchical structure	Julia	umap	9	1.0	True	0.9682583762212283	2,3,4,5,6,7,8,9,10,11,12,14	12	19	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-Kumar	Data w/o Hierarchical structure	Julia	umap	3	1.0	True	1.0	2,3,5,8	4	19	0.2105263157894737	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_1	Data with Hierarchical structure	Julia	umap	8	1.0007064341623078	True	0.808124716427698	2,3,4,6,8,10	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_10	Data with Hierarchical structure	Julia	umap	12	1.0	True	0.9922280246758648	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_11	Data with Hierarchical structure	Julia	umap	12	1.0	True	0.9759943097749174	2,3,4,5,6,8,9,10,11,12	10	19	0.5263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_12	Data with Hierarchical structure	Julia	umap	11	1.0	True	0.9705724645291172	2,3,4,5,7,8,9,10,11	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_13	Data with Hierarchical structure	Julia	umap	12	1.0	True	0.9676441530465554	2,3,4,5,6,7,9,10,11,12,13,14,18	13	19	0.6842105263157895	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_2	Data with Hierarchical structure	Julia	umap	10	1.0037836178270731	True	0.8049472518688253	2,4,6,7,10	5	19	0.2631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_3	Data with Hierarchical structure	Julia	umap	13	1.0	True	0.9673873592453072	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_4	Data with Hierarchical structure	Julia	umap	12	1.0	True	0.9800573050659735	2,3,5,6,7,8,9,10,11,12,13,14	12	18	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_5	Data with Hierarchical structure	Julia	umap	12	1.0	True	0.9778178641499674	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_6	Data with Hierarchical structure	Julia	umap	11	1.0	True	0.9312899074558324	2,3,4,5,6,8,9,10,11	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_7	Data with Hierarchical structure	Julia	umap	13	1.0	True	0.9868170885896184	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_8	Data with Hierarchical structure	Julia	umap	13	1.0	True	0.9917428526543566	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_Tcell_9	Data with Hierarchical structure	Julia	umap	11	1.0	True	0.9540075933924214	2,3,4,5,6,7,8,9,10,11	10	19	0.5263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	Julia	umap	9	1.0	True	0.9625707695533652	5,6,7,8,9,10	6	16	0.3157894736842105	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	5,6,7,8,9,10,11	7	16	0.3684210526315789	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_1019	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	9,10,11,12,16	5	11	0.2631578947368421	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	9,10	2	12	0.1052631578947368	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_2006	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10,11,12,13	4	11	0.2105263157894737	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	Julia	umap	8	1.0	True	0.9601448238522092	8,9,10	3	13	0.1578947368421053	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_2485	Data w/o Hierarchical structure	Julia	umap	4	1.0	True	1.0	4	1	16	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10	1	10	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_3016	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10,11	2	10	0.1052631578947368	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_3501	Data w/o Hierarchical structure	Julia	umap	6	1.0	True	1.0	6	1	15	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_3966	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10,11	2	11	0.1052631578947368	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	9,10,11,12	4	12	0.2105263157894737	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_4244	Data w/o Hierarchical structure	Julia	umap	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_4827	Data w/o Hierarchical structure	Julia	umap	7	1.0	True	1.0	6,7	2	15	0.1052631578947368	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-sim_TMuris_5033	Data w/o Hierarchical structure	Julia	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-Trapnell	Data w/o Hierarchical structure	Julia	umap	2	1.0	True	0.6075994169901884	2,3,4,5,6,7,9,10,11,12,15	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_12073	Data with Hierarchical structure	Julia	umap	8	1.0021000525875117	True	0.7857891233574283	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_2410	Data with Hierarchical structure	Julia	umap	7	1.012732818880095	False	0.7310240724385807	2,3,4,5,6,8,9,10,11	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_3308	Data with Hierarchical structure	Julia	umap	7	1.0006297680265843	True	0.8081517098555582	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_3706	Data with Hierarchical structure	Julia	umap	7	1.0037893005598382	True	0.8210258471348573	2,3,4,5,6,7,8,9	8	19	0.4210526315789473	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_3869	Data with Hierarchical structure	Julia	umap	9	1.0026463340094645	True	0.7647668264263726	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_4292	Data with Hierarchical structure	Julia	umap	11	1.0245138494739083	False	0.7451150795441174	2,3,4,5,8,9	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_4757	Data with Hierarchical structure	Julia	umap	9	1.0229946198255289	False	0.7644467610022465	3,4,5,6	4	18	0.2105263157894737	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_5730	Data with Hierarchical structure	Julia	umap	11	1.0005374806865472	True	0.8092453671371453	2,3,4,5,6,7,8,9,10,11,12,13,14,16,18	15	18	0.7894736842105263	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_785	Data with Hierarchical structure	Julia	umap	7	1.0	True	0.7140349270968037	2,3,4,5,7,9	6	18	0.3157894736842105	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix_7993	Data with Hierarchical structure	Julia	umap	8	1.0119704789910733	False	0.7770016886827328	2,3,4,5,6,9	6	17	0.3157894736842105	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix4eq	Data with Hierarchical structure	Julia	umap	4	1.0	True	0.9796578915753422	2,3,4,5,6,7,8,9	8	19	0.4210526315789473	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix4ueq	Data with Hierarchical structure	Julia	umap	5	1.0	True	0.9824792924846436	2,3,4,5,6,8	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-ZhengMix8eq	Data with Hierarchical structure	Julia	umap	9	1.0015708988549574	True	0.7847828598662687	2,3,4,5,6,7,8,9	8	19	0.4210526315789473	20250806_R_scICER_sclensJulia_umap	use umap graph from scLENS directly, but run with scICER
-Koh	Data with Hierarchical structure	RNA	snn	10	1.0	True	0.9537865797291262	2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20	18	18	0.9473684210526315	20250729_R_scICER	use RNA assay, pca, snn
-Koh	Data with Hierarchical structure	RNA	knn	11	1.0	True	0.9726277573230554	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	16	19	0.8421052631578947	20250730_R_scICER_knn	use RNA assay, pca, knn
-Koh	Data with Hierarchical structure	RNA	umap	10	1.0	True	0.974555331858706	2,3,4,5,6,7,8,9,10,11,12,13,14,15	14	18	0.7368421052631579	20250730_R_scICER_umap	use RNA assay, pca, umap
-Kumar	Data w/o Hierarchical structure	RNA	snn	4	1.0	True	0.9800661515931928	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	16	19	0.8421052631578947	20250729_R_scICER	use RNA assay, pca, snn
-Kumar	Data w/o Hierarchical structure	RNA	knn	4	1.0	True	0.9720128789609144	2,3,4,5,6,7,8,10	8	18	0.4210526315789473	20250730_R_scICER_knn	use RNA assay, pca, knn
-Kumar	Data w/o Hierarchical structure	RNA	umap	3	1.0	True	0.9879605783635476	2,3,8	3	18	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_1	Data with Hierarchical structure	RNA	snn	9	1.080768069972616	False	0.7089796473606745	2	1	18	0.05263157894736842	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_1	Data with Hierarchical structure	RNA	knn	7	1.070773618800776	False	0.7202729103108841	2	1	19	0.05263157894736842	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_1	Data with Hierarchical structure	RNA	umap	11	1.0238229352215984	False	0.7043616438257844	2,3,4	3	19	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_10	Data with Hierarchical structure	RNA	snn	13	1.0	True	0.9779820975618426	2,3,4,5,6,7,8,9,10,11,13,14,15,17,18,19,20	17	17	0.8947368421052632	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_10	Data with Hierarchical structure	RNA	knn	12	1.0	True	0.9802649334052316	2,3,4,5,6,7,8,9,10,11,12	11	17	0.5789473684210527	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_10	Data with Hierarchical structure	RNA	umap	13	1.0	True	0.956138523008002	2,3,5,6,7,8,9,10,11,12,13	11	19	0.5789473684210527	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_11	Data with Hierarchical structure	RNA	snn	16	1.007237839199488	False	0.7553918267488081	2,3,4,5,6,7,8,9,10,11,12,13,17	13	19	0.6842105263157895	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_11	Data with Hierarchical structure	RNA	knn	11	1.0163633455589085	False	0.7473211007549178	2,3,4,6	4	19	0.2105263157894737	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_11	Data with Hierarchical structure	RNA	umap	10	1.111287286225193	False	0.7533645049972333	2,3,4,5	4	19	0.2105263157894737	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_12	Data with Hierarchical structure	RNA	snn	12	1.0	True	0.9251863569990608	2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20	18	19	0.9473684210526315	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_12	Data with Hierarchical structure	RNA	knn	10	1.0	True	0.9332973744272236	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_12	Data with Hierarchical structure	RNA	umap	11	1.0	True	0.9286563117067383	2,3,4,5,7,8,9,10,11,12	10	19	0.5263157894736842	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_13	Data with Hierarchical structure	RNA	snn	10	1.0828559836545355	False	0.7435093781977209	2,4,5,6,7,8,9,11,12,13,14,15,16,20	14	19	0.7368421052631579	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_13	Data with Hierarchical structure	RNA	knn	11	1.005741082792074	False	0.7105676008935583	2,3,5	3	19	0.1578947368421053	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_13	Data with Hierarchical structure	RNA	umap	11	1.079730342483696	False	0.7661912553115193	2,3,6	3	19	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_2	Data with Hierarchical structure	RNA	snn	20	1.012787779677924	False	0.6489743932341772	2,3,4,10	4	19	0.2105263157894737	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_2	Data with Hierarchical structure	RNA	knn	16	1.073226025616133	False	0.7137797850129094	2,3,5	3	18	0.1578947368421053	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_2	Data with Hierarchical structure	RNA	umap	16	1.0637025977658332	False	0.6887164371421133	2,4,5	3	19	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_3	Data with Hierarchical structure	RNA	snn	15	1.0180859672660232	False	0.807147202169778	2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,20	16	19	0.8421052631578947	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_3	Data with Hierarchical structure	RNA	knn	12	1.0053535428865632	False	0.758515341872243	2,3,4,5,7	5	18	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_3	Data with Hierarchical structure	RNA	umap	11	1.0450130139698288	False	0.801500991215968	2,3,4,5,8,10	6	19	0.3157894736842105	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_4	Data with Hierarchical structure	RNA	snn	17	1.0	True	0.9506112714839476	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	19	19	1	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_4	Data with Hierarchical structure	RNA	knn	12	1.0	True	0.9662265407292044	2,3,4,5,8,9,10,11,12	9	18	0.4736842105263158	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_4	Data with Hierarchical structure	RNA	umap	12	1.0029411852054777	True	0.9466439180506616	2,3,4,5,6,7,8,9,10,11,12	11	16	0.5789473684210527	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_5	Data with Hierarchical structure	RNA	snn	12	1.0	True	0.8363772056937582	2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20	17	18	0.8947368421052632	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_5	Data with Hierarchical structure	RNA	knn	10	1.0	True	0.8294142453264582	2,4,5,7,8,9,10	7	19	0.3684210526315789	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_5	Data with Hierarchical structure	RNA	umap	11	1.0	True	0.8268019085553479	2,4,5,8,10,11	6	19	0.3157894736842105	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_6	Data with Hierarchical structure	RNA	snn	8	1.0275577380514185	False	0.7214901732437952	2,3,4,5,6,7,11,12,13,14,15	11	19	0.5789473684210527	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_6	Data with Hierarchical structure	RNA	knn	10	1.056397834797998	False	0.6881847887381105	2,3	2	17	0.1052631578947368	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_6	Data with Hierarchical structure	RNA	umap	9	1.013782463472343	False	0.6800449190872528	2,4	2	18	0.1052631578947368	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_7	Data with Hierarchical structure	RNA	snn	16	1.0	True	0.911051117201806	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20	18	19	0.9473684210526315	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_7	Data with Hierarchical structure	RNA	knn	12	1.0096065375315444	False	0.931009403739424	2,4,5,6,7,8,9,10,11	9	18	0.4736842105263158	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_7	Data with Hierarchical structure	RNA	umap	11	1.0	True	0.864220903613685	2,3,4,5,6,8,9,10,11	9	18	0.4736842105263158	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_8	Data with Hierarchical structure	RNA	snn	13	1.0	True	0.9396989268064846	2,3,4,5,6,7,8,9,10,11,12,13,14,16,18	15	19	0.7894736842105263	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_8	Data with Hierarchical structure	RNA	knn	12	1.0	True	0.94908948383823	2,3,5,6,7,8,9,10,11,12,13	11	18	0.5789473684210527	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_8	Data with Hierarchical structure	RNA	umap	11	1.003289473577814	True	0.8759068709685247	2,3,4,5,6,7,8,9,11	9	19	0.4736842105263158	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_Tcell_9	Data with Hierarchical structure	RNA	snn	11	1.0	True	0.8261495947430664	2,3,4,6,7,8,9,10,11,12,13,15,17,18,19,20	16	19	0.8421052631578947	20250729_R_scICER	use RNA assay, pca, snn
-sim_Tcell_9	Data with Hierarchical structure	RNA	knn	11	1.0002486431141748	True	0.8404209878923281	2,3,4,5,7,11,12	7	19	0.3684210526315789	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_Tcell_9	Data with Hierarchical structure	RNA	umap	11	1.0003732429749788	True	0.8487641680792521	2,3,4,5,11	5	19	0.2631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	RNA	snn	9	1.0	True	0.9200634419741456	6,7,8,9,11,12,13,15,18	9	15	0.4736842105263158	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	RNA	knn	8	1.0	True	0.9190461788865688	4,5,6,7,8	5	17	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	RNA	umap	8	1.0	True	0.9220068877034236	8,9	2	13	0.1052631578947368	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	RNA	snn	9	1.0	True	0.9646836241328568	8,9,10,11,12,13,14,15,16,17,20	11	13	0.5789473684210527	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	RNA	knn	9	1.0	True	0.9646836241328568	4,5,6,7,8,9,10,11,12	9	17	0.4736842105263158	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	8,9,10,11,12,13,14	7	12	0.3684210526315789	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_1019	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	1.0	9,10,11,12,13,14,17,18,19	9	12	0.4736842105263158	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_1019	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	1.0	7,8,9,10,11,12,13,14	8	14	0.4210526315789473	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_1019	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	10,11,12,14,15	5	11	0.2631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	0.9985234028937666	6,7,8,9,10	5	15	0.2631578947368421	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	0.9985234028937666	5,6,7,8,9,10	6	16	0.3157894736842105	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	8,9,10	3	13	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_2006	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	1.0	10,11,12,13,14,16,17,18	8	11	0.4210526315789473	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_2006	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	1.0	9,10,11,14	4	12	0.2105263157894737	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_2006	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	10,12,13,14,15,18	6	11	0.3157894736842105	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	RNA	snn	9	1.0	True	0.959154867390704	7,8,9,10,11,12,13,14,15	9	14	0.4736842105263158	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	RNA	knn	8	1.0	True	0.9601448238522092	6,7,8	3	12	0.1578947368421053	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	RNA	umap	8	1.0	True	0.9601448238522092	8	1	12	0.05263157894736842	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_2485	Data w/o Hierarchical structure	RNA	snn	3	1.0	True	0.96959534987704	2,3	2	18	0.1052631578947368	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_2485	Data w/o Hierarchical structure	RNA	knn	4	1.0	True	1.0	2,3,4	3	19	0.1578947368421053	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_2485	Data w/o Hierarchical structure	RNA	umap	4	1.0	True	1.0	3,4	2	17	0.1052631578947368	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	1.0	8,9,10,11	4	13	0.2105263157894737	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	0.9990047146946316	6,7,8,9,10	5	15	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	9,10	2	12	0.1052631578947368	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	RNA	snn	9	1.0	True	0.9752627053345096	9,10	2	12	0.1052631578947368	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	RNA	knn	9	1.0	True	0.9752627053345096	8,9	2	13	0.1052631578947368	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	9,10	2	12	0.1052631578947368	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_3016	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	1.0	10,11,12,13,15,18	6	11	0.3157894736842105	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_3016	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	1.0	9,10,11	3	11	0.1578947368421053	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_3016	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	10,11,12,13	4	11	0.2105263157894737	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_3501	Data w/o Hierarchical structure	RNA	snn	6	1.0	True	1.0	6	1	15	0.05263157894736842	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_3501	Data w/o Hierarchical structure	RNA	knn	6	1.0	True	1.0	6	1	14	0.05263157894736842	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_3501	Data w/o Hierarchical structure	RNA	umap	6	1.0	True	1.0	6	1	15	0.05263157894736842	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_3966	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	0.998492384400004	7,8,9,10,11	5	13	0.2631578947368421	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_3966	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	0.998492384400004	7,8,9,10,11,12	6	14	0.3157894736842105	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_3966	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	8,9,10,12	4	13	0.2105263157894737	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	0.999252775978927	9,10,11,12,13,14,15,16,18	9	12	0.4736842105263158	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	0.999252775978927	7,8,9,10	4	13	0.2105263157894737	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	8,9,10	3	13	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	0.9985131790484856	8,9,10,11	4	13	0.2105263157894737	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	0.9985131790484856	4,5,6,7,8,9,10	7	16	0.3684210526315789	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	7,8,9,10	4	14	0.2105263157894737	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_4244	Data w/o Hierarchical structure	RNA	snn	7	1.0	True	0.9992947646063974	5,6,7,8	4	16	0.2105263157894737	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_4244	Data w/o Hierarchical structure	RNA	knn	7	1.0	True	1.0	4,5,6,7	4	17	0.2105263157894737	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_4244	Data w/o Hierarchical structure	RNA	umap	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_4827	Data w/o Hierarchical structure	RNA	snn	7	1.0	True	1.0	7,8,9,10	4	13	0.2105263157894737	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_4827	Data w/o Hierarchical structure	RNA	knn	7	1.0	True	1.0	7,8	2	14	0.1052631578947368	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_4827	Data w/o Hierarchical structure	RNA	umap	7	1.0	True	1.0	7,8	2	13	0.1052631578947368	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	1.0	9,10	2	12	0.1052631578947368	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	1.0	9,10	2	12	0.1052631578947368	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	9,10,11	3	12	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	0.9994019077224746	9,10	2	12	0.1052631578947368	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	1.0	9,10	2	11	0.1052631578947368	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250730_R_scICER_umap	use RNA assay, pca, umap
-sim_TMuris_5033	Data w/o Hierarchical structure	RNA	snn	10	1.0	True	1.0	10,11,15,16	4	11	0.2105263157894737	20250729_R_scICER	use RNA assay, pca, snn
-sim_TMuris_5033	Data w/o Hierarchical structure	RNA	knn	10	1.0	True	1.0	9,10	2	11	0.1052631578947368	20250730_R_scICER_knn	use RNA assay, pca, knn
-sim_TMuris_5033	Data w/o Hierarchical structure	RNA	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250730_R_scICER_umap	use RNA assay, pca, umap
-Trapnell	Data w/o Hierarchical structure	RNA	snn	3	1.0	True	0.5161309401157539	2,3,4,5,6,7,8,9,10,14,15,20	12	19	0.631578947368421	20250729_R_scICER	use RNA assay, pca, snn
-Trapnell	Data w/o Hierarchical structure	RNA	knn	4	1.0	True	0.502304897852843	2,3,4,5,6	5	18	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-Trapnell	Data w/o Hierarchical structure	RNA	umap	3	1.0	True	0.5088695726994301	2,3,6	3	19	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_12073	Data with Hierarchical structure	RNA	snn	7	1.0007645967576488	True	0.6622606905478287	3,4,5,6,7,9,10,12,13,16,17,18,19,20	14	17	0.7368421052631579	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_12073	Data with Hierarchical structure	RNA	knn	6	1.0017826022713767	True	0.6592082825622095	2,3,4,5,6,7	6	16	0.3157894736842105	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_12073	Data with Hierarchical structure	RNA	umap	6	1.0134744645786058	False	0.6527474663214544	2,3,4,5	4	19	0.2105263157894737	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_2410	Data with Hierarchical structure	RNA	snn	8	1.0	True	0.6419703756055867	2,3,4,5,6,7,8,9,10,11,12,13,14	13	18	0.6842105263157895	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_2410	Data with Hierarchical structure	RNA	knn	9	1.0614252625579876	False	0.6479389075420586	2,3,4,5,6,8,11	7	18	0.3684210526315789	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_2410	Data with Hierarchical structure	RNA	umap	7	1.0014663365927146	True	0.6285970850679081	2,3,4,7	4	19	0.2105263157894737	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_3308	Data with Hierarchical structure	RNA	snn	8	1.0	True	0.6852354556925214	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	19	19	1	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_3308	Data with Hierarchical structure	RNA	knn	13	1.004231643235524	True	0.683170427133633	2,3,4,5,6,7,8,13	8	16	0.4210526315789473	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_3308	Data with Hierarchical structure	RNA	umap	7	1.0015021480725264	True	0.6757182462824737	2,3,4,5,6,7	6	19	0.3157894736842105	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_3706	Data with Hierarchical structure	RNA	snn	6	1.0	True	0.7406484724941951	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	19	19	1	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_3706	Data with Hierarchical structure	RNA	knn	6	1.0018339630958386	True	0.7427567069797906	2,3,4,5,6,7	6	15	0.3157894736842105	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_3706	Data with Hierarchical structure	RNA	umap	6	1.0115806619965868	False	0.7450959069019295	2,3,4,5,9	5	19	0.2631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_3869	Data with Hierarchical structure	RNA	snn	11	1.0008571623872913	True	0.6432768555382642	2,3,4,5,6,7,8,10,11,12,13,14,15,17,18,19	16	17	0.8421052631578947	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_3869	Data with Hierarchical structure	RNA	knn	8	1.006368509376831	False	0.6500929938810052	2,3,4,5,6,10	6	19	0.3157894736842105	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_3869	Data with Hierarchical structure	RNA	umap	6	1.0008209486470432	True	0.6379412509058481	2,3,4,5,6,7	6	18	0.3157894736842105	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_4292	Data with Hierarchical structure	RNA	snn	9	1.002574250092023	True	0.6543526100437657	2,3,4,5,6,7,8,9,10,11,12,13,14,17	14	19	0.7368421052631579	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_4292	Data with Hierarchical structure	RNA	knn	6	1.0009384607088894	True	0.6497544010729467	2,3,4,5,6	5	16	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_4292	Data with Hierarchical structure	RNA	umap	9	1.0180953352124305	False	0.632242002462373	2,3,4,5,6,7	6	17	0.3157894736842105	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_4757	Data with Hierarchical structure	RNA	snn	14	1.0011354662039662	True	0.6434378119745018	2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,20	17	17	0.8947368421052632	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_4757	Data with Hierarchical structure	RNA	knn	6	1.001423268276288	True	0.6408464992885061	2,3,4,5,6	5	17	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_4757	Data with Hierarchical structure	RNA	umap	6	1.003115901599939	True	0.6316924740976567	2,3,4,5,6	5	18	0.2631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_5730	Data with Hierarchical structure	RNA	snn	8	1.0005013972889705	True	0.7918881336163544	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	19	19	1	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_5730	Data with Hierarchical structure	RNA	knn	7	1.0112159365271118	False	0.7720641267314861	2,3,4,5,6	5	17	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_5730	Data with Hierarchical structure	RNA	umap	9	1.0035411090706736	True	0.7648864621963812	2,3,4,5,6,9,10,11,12,13,14,15	12	19	0.631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_785	Data with Hierarchical structure	RNA	snn	14	1.0	True	0.5624687876205746	2,3,4,5,6,7,8,9,10,11,12,14,15,16,20	15	19	0.7894736842105263	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_785	Data with Hierarchical structure	RNA	knn	10	1.037353960201223	False	0.6022317060443699	2,3,4,5,6,7,8	7	19	0.3684210526315789	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_785	Data with Hierarchical structure	RNA	umap	6	1.0712736023389893	False	0.5868124399296604	2,3,4	3	19	0.1578947368421053	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix_7993	Data with Hierarchical structure	RNA	snn	7	1.0003003851306649	True	0.6489437869827067	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	19	19	1	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix_7993	Data with Hierarchical structure	RNA	knn	8	1.003266788537058	True	0.6485293503631302	2,3,4,5,6,7,8	7	15	0.3684210526315789	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix_7993	Data with Hierarchical structure	RNA	umap	9	1.0059875928286577	False	0.6479472573986691	2,3,4,5,6,7,8	7	16	0.3684210526315789	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix4eq	Data with Hierarchical structure	RNA	snn	5	1.0	True	0.9013504575658428	2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,19	16	19	0.8421052631578947	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix4eq	Data with Hierarchical structure	RNA	knn	5	1.001352715156094	True	0.8961872823843319	2,3,4,5,6	5	16	0.2631578947368421	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix4eq	Data with Hierarchical structure	RNA	umap	6	1.0042738119001169	True	0.8382045346159125	2,3,4,6,8	5	19	0.2631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix4ueq	Data with Hierarchical structure	RNA	snn	6	1.0	True	0.9450868427615814	2,3,4,5,6,7,10,11,13	9	19	0.4736842105263158	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix4ueq	Data with Hierarchical structure	RNA	knn	5	1.0008919723017835	True	0.9420912266667169	2,3,4,5	4	19	0.2105263157894737	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix4ueq	Data with Hierarchical structure	RNA	umap	6	1.0	True	0.9357829777215644	2,3,4,5,6	5	18	0.2631578947368421	20250730_R_scICER_umap	use RNA assay, pca, umap
-ZhengMix8eq	Data with Hierarchical structure	RNA	snn	7	1.0	True	0.6656579684282	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	19	19	1	20250729_R_scICER	use RNA assay, pca, snn
-ZhengMix8eq	Data with Hierarchical structure	RNA	knn	7	1.0014820555552912	True	0.6632862837703768	2,3,4,5,6,7,8,11	8	15	0.4210526315789473	20250730_R_scICER_knn	use RNA assay, pca, knn
-ZhengMix8eq	Data with Hierarchical structure	RNA	umap	7	1.0009770403745768	True	0.6487710077702418	2,3,4,5,6,7,8	7	19	0.3684210526315789	20250730_R_scICER_umap	use RNA assay, pca, umap
-Koh	Data with Hierarchical structure	SCT	snn	9	1.0	True	0.9907217623614945	4,5,6,7,8,9,10,11,12,14,15,20	12	16	0.631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-Koh	Data with Hierarchical structure	SCT	knn	9	1.0	True	0.9890489214290064	2,3,4,5,6,7,8,9,11,12	10	18	0.5263157894736842	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-Koh	Data with Hierarchical structure	SCT	umap	9	1.0	True	0.9838101081371272	2,3,4,5,6,7,8,9,10,11,12,15	12	19	0.631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-Kumar	Data w/o Hierarchical structure	SCT	snn	3	1.0	True	0.9879605783635476	2,3,4,5,9,10	6	19	0.3157894736842105	20250804_R_scICER.SCT	use SCT assay, pca, snn
-Kumar	Data w/o Hierarchical structure	SCT	knn	3	1.0	True	0.9879605783635476	2,3,4,6	4	18	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-Kumar	Data w/o Hierarchical structure	SCT	umap	3	1.0	True	0.9879609028448288	2,3,4,5,6,7	6	19	0.3157894736842105	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_1	Data with Hierarchical structure	SCT	snn	10	1.0049288914261585	True	0.6383396131480087	2,3,6,7,10	5	18	0.2631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_1	Data with Hierarchical structure	SCT	knn	7	1.0826869841009623	False	0.6817220056290085	2,3	2	19	0.1052631578947368	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_1	Data with Hierarchical structure	SCT	umap	8	1.0196333200426708	False	0.7291388967585583	2,3,4	3	19	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_10	Data with Hierarchical structure	SCT	snn	10	1.0	True	0.8530397483667281	2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	17	18	0.8947368421052632	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_10	Data with Hierarchical structure	SCT	knn	9	1.0	True	0.9213434308480326	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_10	Data with Hierarchical structure	SCT	umap	7	1.040781303118092	False	0.8758239026750101	2,3,4,5,6,8,9,10,11,13,14,15,16	13	19	0.6842105263157895	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_11	Data with Hierarchical structure	SCT	snn	14	1.0024916229555771	True	0.7713504046982441	2,3,4,5,6,9,10,12,13,14,15,16,17,18,19,20	16	19	0.8421052631578947	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_11	Data with Hierarchical structure	SCT	knn	8	1.00676938334315	False	0.8285430241571646	2,3,4,5,6,11,13	7	19	0.3684210526315789	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_11	Data with Hierarchical structure	SCT	umap	9	1.0	True	0.8456919284798008	2,4,6,7,8,9,10,12,13	9	19	0.4736842105263158	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_12	Data with Hierarchical structure	SCT	snn	8	1.0	True	0.8705952815740507	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18	16	19	0.8421052631578947	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_12	Data with Hierarchical structure	SCT	knn	8	1.000554422991026	True	0.883339533991884	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_12	Data with Hierarchical structure	SCT	umap	9	1.0	True	0.9012840860787156	2,4,5,6,7,8,9,10,11,12,13,14	12	19	0.631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_13	Data with Hierarchical structure	SCT	snn	8	1.0134323964080183	False	0.7629879953236348	2,3,4,5,6,9	6	18	0.3157894736842105	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_13	Data with Hierarchical structure	SCT	knn	8	1.030454097599099	False	0.8132019536273524	2,4,6,9	4	19	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_13	Data with Hierarchical structure	SCT	umap	9	1.0023046987327136	True	0.8453880728561914	2,3,4,5,6,8,9,10,11,12	10	19	0.5263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_2	Data with Hierarchical structure	SCT	snn	12	1.0409533027610829	False	0.6399782980239449	2,3,6,7	4	18	0.2105263157894737	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_2	Data with Hierarchical structure	SCT	knn	10	1.021704538481861	False	0.6777675769465762	2	1	19	0.05263157894736842	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_2	Data with Hierarchical structure	SCT	umap	12	1.0429825603779534	False	0.6886285400273149	2,4,5,7,8,9,10	7	19	0.3684210526315789	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_3	Data with Hierarchical structure	SCT	snn	13	1.0075984383912229	False	0.6707621738755578	2,3,4,5,6,7,8,10,15,16,17,18,19,20	14	19	0.7368421052631579	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_3	Data with Hierarchical structure	SCT	knn	11	1.0444163093681649	False	0.7058875301203974	2,5,10	3	18	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_3	Data with Hierarchical structure	SCT	umap	13	1.0035522846882197	True	0.7434262210309348	2,3,4,5,7,8,9,10,11,13	10	18	0.5263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_4	Data with Hierarchical structure	SCT	snn	13	1.0	True	0.7938313080184372	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	16	19	0.8421052631578947	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_4	Data with Hierarchical structure	SCT	knn	12	1.0033856894528987	True	0.8175009729094235	2,3,5,6,7,8,10,12	8	18	0.4210526315789473	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_4	Data with Hierarchical structure	SCT	umap	13	1.050210295059749	False	0.7670567944428384	2,3,4,5,6,7,8,10,11,14,15	11	19	0.5789473684210527	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_5	Data with Hierarchical structure	SCT	snn	17	1.000956661556342	True	0.7646888776718435	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18	17	19	0.8947368421052632	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_5	Data with Hierarchical structure	SCT	knn	12	1.0004950506139512	True	0.7934492563736057	2,3,4,5,8,11,12,13	8	19	0.4210526315789473	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_5	Data with Hierarchical structure	SCT	umap	12	1.0006361953403409	True	0.7707515746292238	2,3,4,5,6,7,8,10,11,12,14	11	19	0.5789473684210527	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_6	Data with Hierarchical structure	SCT	snn	11	1.0239200016122696	False	0.7059493492939428	2,3,4,5,6,8,10	7	19	0.3684210526315789	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_6	Data with Hierarchical structure	SCT	knn	10	1.0625173718678265	False	0.7665663294854662	2,5,7	3	16	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_6	Data with Hierarchical structure	SCT	umap	9	1.0023634065317095	True	0.8177070439133189	2,6,7,8,9,10,11	7	19	0.3684210526315789	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_7	Data with Hierarchical structure	SCT	snn	15	1.0	True	0.7687682721878991	2,4,5,6,7,9,10,11,12,13,15,17,18,19,20	15	19	0.7894736842105263	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_7	Data with Hierarchical structure	SCT	knn	12	1.0142552391130129	False	0.8082283736973291	2,4,5,6,7,10,11,13	8	19	0.4210526315789473	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_7	Data with Hierarchical structure	SCT	umap	12	1.0007161455520082	True	0.7971199484716928	2,4,5,6,7,9,10,11,12,13	10	19	0.5263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_8	Data with Hierarchical structure	SCT	snn	13	1.0009139524290789	True	0.814635454352822	2,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19	16	18	0.8421052631578947	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_8	Data with Hierarchical structure	SCT	knn	12	1.0004385662198747	True	0.8354771412019836	2,4,5,6,7,8,9,10,11,12	10	19	0.5263157894736842	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_8	Data with Hierarchical structure	SCT	umap	14	1.0202654641452664	False	0.8584538958234932	2,5,6,7,9,10,11,13	8	19	0.4210526315789473	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_Tcell_9	Data with Hierarchical structure	SCT	snn	15	1.0019144392216144	True	0.8006235875131194	2,3,5,6,7,10,12,13,14,15	10	19	0.5263157894736842	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_Tcell_9	Data with Hierarchical structure	SCT	knn	10	1.0020720868566697	True	0.8348931003007455	2,4,5,6,10,11,12	7	19	0.3684210526315789	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_Tcell_9	Data with Hierarchical structure	SCT	umap	10	1.0001288986313308	True	0.8748900994540002	2,4,6,7,8,9,10,11,12,13	10	19	0.5263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	SCT	snn	8	1.0	True	0.9220068877034236	5,6,7,8,11	5	16	0.2631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	SCT	knn	8	1.0	True	0.9220068877034236	5,6,7,8	4	15	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	SCT	umap	8	1.0	True	0.9220068877034236	8	1	13	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	SCT	snn	9	1.0	True	0.9590172193148416	6,7,8,9,10	5	15	0.2631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	SCT	knn	9	1.0	True	0.9590172193148416	4,5,6,7,8,9	6	17	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	8,9,10	3	13	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_1019	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	0.9970832819557518	6,7,8,9,10,11,12,13,14,15,19	11	15	0.5789473684210527	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_1019	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	1.0	6,7,8,9,10,11,12,13,15,16	10	14	0.5263157894736842	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_1019	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	7,8,9,10,11,13,14,15,16,17,18	11	14	0.5789473684210527	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	SCT	snn	9	1.0	True	0.9579539146558952	7,8,9,11	4	14	0.2105263157894737	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	SCT	knn	9	1.0	True	0.9579539146558952	5,6,7,8,9	5	16	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	6,7,8,9,10	5	15	0.2631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_2006	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	0.9985121517168924	8,9,10,11,13,14,20	7	13	0.3684210526315789	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_2006	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	0.9985121517168924	7,8,9,10,11	5	13	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_2006	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	10,11,12	3	11	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	SCT	snn	7	1.0	True	0.9364894741119564	5,6,7,8	4	15	0.2105263157894737	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	SCT	knn	7	1.0	True	0.9364894741119564	5,6,7	3	16	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	SCT	umap	8	1.0	True	0.9601448238522092	6,7,8	3	15	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_2485	Data w/o Hierarchical structure	SCT	snn	4	1.0	True	0.9976127282062895	2,3,4,5	4	18	0.2105263157894737	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_2485	Data w/o Hierarchical structure	SCT	knn	4	1.0	True	0.998797861475231	2,3,4	3	18	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_2485	Data w/o Hierarchical structure	SCT	umap	4	1.0	True	0.998797861475231	2,3,4	3	19	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	1.0	6,7,8,9,10	5	15	0.2631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	1.0	5,6,7,8,9,10	6	15	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	SCT	umap	9	1.0	True	0.959097896571509	8,9	2	13	0.1052631578947368	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	SCT	snn	9	1.0	True	0.9752627053345096	8,9,10	3	13	0.1578947368421053	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	SCT	knn	9	1.0	True	0.9752627053345096	7,8,9	3	14	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	SCT	umap	9	1.0	True	0.9752627053345096	8,9	2	13	0.1052631578947368	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_3016	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	0.9990085782111644	9,10,11,12,13,15	6	12	0.3157894736842105	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_3016	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	0.9990085782111644	8,9,10	3	12	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_3016	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	0.9990085782111644	10	1	10	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_3501	Data w/o Hierarchical structure	SCT	snn	6	1.0	True	1.0	6	1	14	0.05263157894736842	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_3501	Data w/o Hierarchical structure	SCT	knn	6	1.0	True	1.0	6	1	15	0.05263157894736842	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_3501	Data w/o Hierarchical structure	SCT	umap	6	1.0	True	1.0	6	1	15	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_3966	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	0.999245478726034	7,8,9,10,11,12,15,17	8	14	0.4210526315789473	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_3966	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	0.999245478726034	5,6,7,8,9,10,11	7	16	0.3684210526315789	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_3966	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	0.999245478726034	9,10,11	3	10	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	1.0	7,8,9,10,11	5	14	0.2631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	1.0	6,7,8,9,10	5	15	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	SCT	snn	9	1.0	True	0.9755528572845849	5,6,7,8,9	5	16	0.2631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	SCT	knn	9	1.0	True	0.9759252275590998	3,4,5,6,7,8,9	7	18	0.3684210526315789	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	6,7,8,9,10,11	6	15	0.3157894736842105	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_4244	Data w/o Hierarchical structure	SCT	snn	7	1.0	True	1.0	5,6,7	3	16	0.1578947368421053	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_4244	Data w/o Hierarchical structure	SCT	knn	7	1.0	True	1.0	5,6,7	3	15	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_4244	Data w/o Hierarchical structure	SCT	umap	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_4827	Data w/o Hierarchical structure	SCT	snn	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_4827	Data w/o Hierarchical structure	SCT	knn	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_4827	Data w/o Hierarchical structure	SCT	umap	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	0.9950991719994432	8,9,10	3	13	0.1578947368421053	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	0.9939612930778638	7,8,9,10	4	13	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	0.9958727737302444	8,9,10	3	12	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	1.0	8,9,10,11	4	13	0.2105263157894737	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	1.0	7,8,9,10	4	14	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-sim_TMuris_5033	Data w/o Hierarchical structure	SCT	snn	10	1.0	True	1.0	10,11	2	11	0.1052631578947368	20250804_R_scICER.SCT	use SCT assay, pca, snn
-sim_TMuris_5033	Data w/o Hierarchical structure	SCT	knn	10	1.0	True	1.0	8,9,10	3	13	0.1578947368421053	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-sim_TMuris_5033	Data w/o Hierarchical structure	SCT	umap	10	1.0	True	1.0	10	1	9	0.05263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-Trapnell	Data w/o Hierarchical structure	SCT	snn	3	1.0	True	0.5179083551720971	2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,20	17	19	0.8947368421052632	20250804_R_scICER.SCT	use SCT assay, pca, snn
-Trapnell	Data w/o Hierarchical structure	SCT	knn	4	1.0	True	0.5125751240477268	2,3,4,12,13,14	6	19	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-Trapnell	Data w/o Hierarchical structure	SCT	umap	2	1.0	True	0.5832511170349008	2,3,4,5,6,7,8	7	18	0.3684210526315789	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_12073	Data with Hierarchical structure	SCT	snn	9	1.0060503523345206	False	0.7478953438892523	2,3,4,5,6,7,10,11,14,16,18	11	19	0.5789473684210527	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_12073	Data with Hierarchical structure	SCT	knn	7	1.054417779927685	False	0.7706308313434879	2,3,4,5,6	5	19	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_12073	Data with Hierarchical structure	SCT	umap	7	1.0190706148542588	False	0.7402436911116147	2,3,4,5,14	5	18	0.2631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_2410	Data with Hierarchical structure	SCT	snn	9	1.0022715599067278	True	0.7360913582872559	2,3,4,5,6,7,8,9,11,12,14,15	12	18	0.631578947368421	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_2410	Data with Hierarchical structure	SCT	knn	7	1.0007072464969344	True	0.7307164076727664	2,3,4,5,6,7	6	18	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_2410	Data with Hierarchical structure	SCT	umap	7	1.0056855676381755	False	0.7146978184761762	2,3,4,5,8,9,11,12,13,14	10	19	0.5263157894736842	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_3308	Data with Hierarchical structure	SCT	snn	7	1.0	True	0.7661825536450229	2,3,4,5,6,7,8,9,10,11,12,13,14	13	18	0.6842105263157895	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_3308	Data with Hierarchical structure	SCT	knn	7	1.0043223665244083	True	0.7686620229444575	2,3,4,5,6,7,8	7	17	0.3684210526315789	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_3308	Data with Hierarchical structure	SCT	umap	7	1.007421761764589	False	0.7338710174675364	2,3,4,6,9,10,14	7	17	0.3684210526315789	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_3706	Data with Hierarchical structure	SCT	snn	10	1.0	True	0.795814078445599	2,3,4,5,6,7,8,9,10,11,12,13,14,17	14	19	0.7368421052631579	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_3706	Data with Hierarchical structure	SCT	knn	8	1.003301951111398	True	0.7985136237239596	2,3,4,5,6,7,8,10	8	19	0.4210526315789473	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_3706	Data with Hierarchical structure	SCT	umap	8	1.0750958844087743	False	0.7641022866348699	2,3,4,5,9	5	19	0.2631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_3869	Data with Hierarchical structure	SCT	snn	7	1.0001003854481414	True	0.7630235258697681	2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20	18	19	0.9473684210526315	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_3869	Data with Hierarchical structure	SCT	knn	7	1.0073877827719435	False	0.7643800156991225	2,3,4,5,8,9	6	18	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_3869	Data with Hierarchical structure	SCT	umap	8	1.0040862184734525	True	0.7322462601886016	2,3,4,5,7,8	6	18	0.3157894736842105	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_4292	Data with Hierarchical structure	SCT	snn	8	1.0011447386245873	True	0.7444155987476985	2,3,4,5,6,7,8,9,10,12,13,14,15,16	14	19	0.7368421052631579	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_4292	Data with Hierarchical structure	SCT	knn	7	1.035149050190297	False	0.7441645053595899	2,3,4,5	4	19	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_4292	Data with Hierarchical structure	SCT	umap	8	1.0035193718890194	True	0.7129886116759351	2,3,4,7,8,9,11	7	18	0.3684210526315789	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_4757	Data with Hierarchical structure	SCT	snn	12	1.0065928829283624	False	0.750055126316803	2,3,4,5,6,7,8,10,13,16	10	19	0.5263157894736842	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_4757	Data with Hierarchical structure	SCT	knn	7	1.008480073171333	False	0.7557704869869573	2,3,4,5,6	5	18	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_4757	Data with Hierarchical structure	SCT	umap	7	1.0118427721697616	False	0.7172148995583163	2,3,4	3	18	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_5730	Data with Hierarchical structure	SCT	snn	6	1.0016449522331112	True	0.8180873577696846	2,3,4,5,6,7,8,9,10,11,12	11	17	0.5789473684210527	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_5730	Data with Hierarchical structure	SCT	knn	6	1.0131564623318925	False	0.8074792276006196	2,3,4,5	4	19	0.2105263157894737	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_5730	Data with Hierarchical structure	SCT	umap	8	1.0098126516663344	False	0.782441475868294	3,5,6,7,9	5	16	0.2631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_785	Data with Hierarchical structure	SCT	snn	10	1.0	True	0.7015635343876527	2,3,4,5,6,7,8,9,10,11,12,13,14,18,19	15	18	0.7894736842105263	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_785	Data with Hierarchical structure	SCT	knn	11	1.0083220643317947	False	0.721206919127956	2,3,4,5,6,7,8	7	15	0.3684210526315789	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_785	Data with Hierarchical structure	SCT	umap	9	1.0310028932140027	False	0.6803649925050579	2,3,4	3	18	0.1578947368421053	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix_7993	Data with Hierarchical structure	SCT	snn	7	1.000812884346633	True	0.7659858336496749	2,3,4,5,7,8,10,11,12,13,15	11	19	0.5789473684210527	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix_7993	Data with Hierarchical structure	SCT	knn	7	1.0091738304378466	False	0.761999174582101	2,3,4,5,6	5	19	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix_7993	Data with Hierarchical structure	SCT	umap	7	1.0107587916644003	False	0.7440650057051412	2,3,4,10	4	19	0.2105263157894737	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix4eq	Data with Hierarchical structure	SCT	snn	5	1.0	True	0.9606724507433247	2,3,4,5,6,7,8,11,13,16	10	19	0.5263157894736842	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix4eq	Data with Hierarchical structure	SCT	knn	4	1.0	True	0.9776271412572493	2,3,4,5,6,7	6	18	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix4eq	Data with Hierarchical structure	SCT	umap	4	1.0082408018528626	False	0.9742247820884784	2,3,5,6,7,8,9	7	19	0.3684210526315789	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix4ueq	Data with Hierarchical structure	SCT	snn	4	1.0	True	0.9738606198648788	2,3,4,5,6,7,8	7	19	0.3684210526315789	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix4ueq	Data with Hierarchical structure	SCT	knn	4	1.0	True	0.972954964832487	2,3,4,5,6	5	19	0.2631578947368421	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix4ueq	Data with Hierarchical structure	SCT	umap	5	1.0	True	0.9575308974398152	2,3,4,5,6	5	19	0.2631578947368421	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-ZhengMix8eq	Data with Hierarchical structure	SCT	snn	7	1.0	True	0.7639738880369623	2,3,4,5,6,7,8,9,10,11,12,13,15,16,18,19,20	17	19	0.8947368421052632	20250804_R_scICER.SCT	use SCT assay, pca, snn
-ZhengMix8eq	Data with Hierarchical structure	SCT	knn	7	1.0036812161039397	True	0.7637281568393272	2,3,4,5,7,8	6	19	0.3157894736842105	20250804_R_scICER.SCT.knn	use SCT assay, pca, knn
-ZhengMix8eq	Data with Hierarchical structure	SCT	umap	9	1.0185423813463257	False	0.7395817859965883	2,3,4,5,6,7,8,12	8	18	0.4210526315789473	20250804_R_scICER.SCT.umap	use SCT assay, pca, umap
-Koh	Data with Hierarchical structure	sclens	snn	9	1.0	True	0.994432977175858	2,3,4,5,6,7,8,9,10,11,12,14,15,17,18,19	16	18	0.8421052631578947	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-Koh	Data with Hierarchical structure	sclens	knn	9	1.0	True	0.994435243953869	2,3,4,5,6,7,8,9,10,11,12,13,15,16	14	19	0.7368421052631579	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-Koh	Data with Hierarchical structure	sclens	umap	9	1.0	True	0.9782296360607936	2,3,4,5,6,7,8,9,11,12,13,17	12	18	0.631578947368421	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-Kumar	Data w/o Hierarchical structure	sclens	snn	3	1.0	True	0.9879605783635476	2,3,4,5,7,8,9,10,18	9	18	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-Kumar	Data w/o Hierarchical structure	sclens	knn	3	1.0	True	0.9879605783635476	2,3,4,5	4	19	0.2105263157894737	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-Kumar	Data w/o Hierarchical structure	sclens	umap	3	1.0	True	1.0	2,3,5,8	4	19	0.2105263157894737	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_1	Data with Hierarchical structure	sclens	snn	13	1.0	True	0.7025163495003847	2,3,4,5,6,7,8,9,11,12,13,14,15	13	16	0.6842105263157895	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_1	Data with Hierarchical structure	sclens	knn	7	1.0714036565399347	False	0.752837357735269	2,3,4,5	4	19	0.2105263157894737	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_1	Data with Hierarchical structure	sclens	umap	8	1.000503270269493	True	0.8052961059240008	2,3,4,6,8,9,10	7	19	0.3684210526315789	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_10	Data with Hierarchical structure	sclens	snn	11	1.0	True	0.9608454411562044	4,5,6,7,8,9,10,11,12,13,14,15,16,17,20	15	17	0.7894736842105263	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_10	Data with Hierarchical structure	sclens	knn	10	1.0	True	0.9593771042254244	2,3,4,5,6,7,8,9,10,12	10	19	0.5263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_10	Data with Hierarchical structure	sclens	umap	12	1.0	True	0.9922280246758648	3,4,5,6,7,8,9,10,11,12	10	18	0.5263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_11	Data with Hierarchical structure	sclens	snn	11	1.0	True	0.8988624772916968	2,3,4,5,6,7,8,9,10,11,12,13,14,15,18	15	19	0.7894736842105263	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_11	Data with Hierarchical structure	sclens	knn	11	1.033676096236462	False	0.8986784568021776	2,3,4,6,8,9,10	7	18	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_11	Data with Hierarchical structure	sclens	umap	12	1.0	True	0.9769848554362072	2,3,4,5,8,9,10,11,12	9	19	0.4736842105263158	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_12	Data with Hierarchical structure	sclens	snn	11	1.0	True	0.964545914439351	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_12	Data with Hierarchical structure	sclens	knn	10	1.0	True	0.9566657604119764	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_12	Data with Hierarchical structure	sclens	umap	11	1.0	True	0.9705724645291172	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_13	Data with Hierarchical structure	sclens	snn	12	1.0	True	0.8545967129459356	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18	16	19	0.8421052631578947	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_13	Data with Hierarchical structure	sclens	knn	11	1.0	True	0.926948514800046	2,3,5,8,9,11,12,13,14,15	10	19	0.5263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_13	Data with Hierarchical structure	sclens	umap	12	1.0	True	0.9662405079546034	2,3,4,5,6,7,9,10,11,12,13	11	19	0.5789473684210527	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_2	Data with Hierarchical structure	sclens	snn	11	1.001910374350377	True	0.752418815924352	2,3,4,5,6,7,9,11	8	19	0.4210526315789473	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_2	Data with Hierarchical structure	sclens	knn	10	1.0338816086425235	False	0.7891693488852858	2,4,5,6,7,8	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_2	Data with Hierarchical structure	sclens	umap	10	1.0069625103269388	False	0.8003939937785446	2,7,12	3	19	0.1578947368421053	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_3	Data with Hierarchical structure	sclens	snn	13	1.0	True	0.9442404839548056	2,3,4,5,6,7,8,9,10,11,12,13,14,20	14	19	0.7368421052631579	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_3	Data with Hierarchical structure	sclens	knn	12	1.0002480570766357	True	0.9605267708883992	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_3	Data with Hierarchical structure	sclens	umap	13	1.0	True	0.9683150995379164	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_4	Data with Hierarchical structure	sclens	snn	12	1.0	True	0.9680202191732222	2,3,4,5,6,7,8,10,11,12,14,18	12	19	0.631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_4	Data with Hierarchical structure	sclens	knn	12	1.0	True	0.9800136241275728	2,3,4,5,6,7,8,9,10,11,12,13,14	13	19	0.6842105263157895	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_4	Data with Hierarchical structure	sclens	umap	12	1.0	True	0.9794221504301716	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_5	Data with Hierarchical structure	sclens	snn	12	1.0	True	0.9631352441734208	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20	18	19	0.9473684210526315	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_5	Data with Hierarchical structure	sclens	knn	12	1.0	True	0.97158868047701	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_5	Data with Hierarchical structure	sclens	umap	13	1.0	True	0.9784123519669348	2,3,4,5,6,7,8,9,10,11,12,13,14	13	19	0.6842105263157895	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_6	Data with Hierarchical structure	sclens	snn	11	1.0009656394651576	True	0.839653469729739	2,4,5,6,7,8,9,10,11,12,13,14,15,16,17	15	18	0.7894736842105263	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_6	Data with Hierarchical structure	sclens	knn	10	1.0054438677189874	False	0.8998573437686221	2,4,5,6,7,8,9	7	19	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_6	Data with Hierarchical structure	sclens	umap	11	1.0	True	0.9307160409516594	2,3,4,6,8,9,10,11	8	19	0.4210526315789473	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_7	Data with Hierarchical structure	sclens	snn	12	1.0	True	0.9641319050435736	2,4,5,6,7,10,11,12,13,14	10	18	0.5263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_7	Data with Hierarchical structure	sclens	knn	12	1.0	True	0.9700294937326676	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_7	Data with Hierarchical structure	sclens	umap	13	1.0	True	0.9868170885896184	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_8	Data with Hierarchical structure	sclens	snn	12	1.0	True	0.97913016233635	2,3,5,6,8,9,10,11,12,14,16	11	18	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_8	Data with Hierarchical structure	sclens	knn	12	1.0	True	0.9824060190337784	2,3,5,6,7,8,9,10,11,12,13	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_8	Data with Hierarchical structure	sclens	umap	13	1.0	True	0.9917428526543566	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_Tcell_9	Data with Hierarchical structure	sclens	snn	13	1.0	True	0.8802482184319027	2,3,4,5,6,7,8,10,11,12,13,14,15	13	19	0.6842105263157895	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_Tcell_9	Data with Hierarchical structure	sclens	knn	10	1.0	True	0.9413169900203452	2,3,4,5,7,8,9,10	8	19	0.4210526315789473	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_Tcell_9	Data with Hierarchical structure	sclens	umap	11	1.0	True	0.956913934353245	2,3,4,5,6,7,8,9,10,11,12,14	12	18	0.631578947368421	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	sclens	snn	9	1.0	True	0.9170978406470393	4,5,6,7,9,10,11,12,16	9	15	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	sclens	knn	9	1.0	True	0.959650703784694	3,4,5,6,7,8,9	7	17	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	sclens	umap	9	1.0	True	0.9625707695533652	6,7,8,9	4	15	0.2105263157894737	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	sclens	snn	8	1.0	True	0.8017725521515991	3,4,5,6,7,8,9,10,11,12,13	11	17	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	sclens	knn	9	1.0	True	0.8902516446088906	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	5,6,7,8,9,10,11	7	15	0.3684210526315789	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_1019	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	1.0	7,8,9,10,11,12,13,14,15	9	14	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_1019	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	5,6,7,8,9,10,11	7	16	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_1019	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	9,10,11,12,13,15,16	7	12	0.3684210526315789	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	sclens	snn	8	1.0	True	0.8737300077955676	7,8,9,10,11,12,13	7	13	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	0.9767018999904128	5,6,7,8,9,10	6	16	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	9,10	2	12	0.1052631578947368	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_2006	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	1.0	10,11,12	3	11	0.1578947368421053	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_2006	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	9,10,11,12,13	5	12	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_2006	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10,12,13,14	4	11	0.2105263157894737	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	sclens	snn	8	1.0	True	0.9601448238522092	7,8,9,10,11,12,14,15,17,18,20	11	14	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	sclens	knn	8	1.0	True	0.9587072371062144	4,5,6,7,8,9	6	16	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	sclens	umap	8	1.0	True	0.9601448238522092	8,9	2	13	0.1052631578947368	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_2485	Data w/o Hierarchical structure	sclens	snn	3	1.0	True	0.96959534987704	3,4,5,6,7,8,9,12,13,16	10	16	0.5263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_2485	Data w/o Hierarchical structure	sclens	knn	3	1.0	True	0.96959534987704	2,3	2	14	0.1052631578947368	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_2485	Data w/o Hierarchical structure	sclens	umap	4	1.0	True	1.0	4	1	16	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	sclens	snn	14	1.0	True	0.9905130851031126	7,8,9,10,11,12,13,14,15,16,17,18,19,20	14	14	0.7368421052631579	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	6,7,8,9,10,11,12,14,17	9	14	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	0.9990031638450813	6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	15	15	0.7894736842105263	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	4,5,6,7,8,9,10	7	16	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_3016	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	1.0	10,11,12	3	11	0.1578947368421053	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_3016	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	7,8,9,10,11,12	6	14	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_3016	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_3501	Data w/o Hierarchical structure	sclens	snn	6	1.0	True	0.9160133175293108	3,4,5,6,7,8,9,10,12,13,14,15,16,18,19	15	15	0.7894736842105263	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_3501	Data w/o Hierarchical structure	sclens	knn	6	1.0	True	0.9949350506325116	2,3,4,5,6	5	17	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_3501	Data w/o Hierarchical structure	sclens	umap	6	1.0	True	1.0	6	1	15	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_3966	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	1.0	10,11,14,17	4	11	0.2105263157894737	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_3966	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	9,10,11	3	12	0.1578947368421053	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_3966	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10,11	2	11	0.1052631578947368	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	0.9992527670763692	8,9,10,11,12,13,14,15,17,20	10	12	0.5263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	8,9,10,11,12	5	10	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	1.0	9,10,11,12,13,14,15,16,17,18	10	12	0.5263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	5,6,7,8,9,10,11	7	16	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	9,10,11,12	4	12	0.2105263157894737	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_4244	Data w/o Hierarchical structure	sclens	snn	7	1.0	True	0.9978939456043812	4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20	16	16	0.8421052631578947	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_4244	Data w/o Hierarchical structure	sclens	knn	7	1.0	True	1.0	4,5,6,7,8	5	14	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_4244	Data w/o Hierarchical structure	sclens	umap	7	1.0	True	1.0	7,8	2	14	0.1052631578947368	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_4827	Data w/o Hierarchical structure	sclens	snn	6	1.0	True	0.9627530202945777	4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	17	17	0.8947368421052632	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_4827	Data w/o Hierarchical structure	sclens	knn	7	1.0	True	0.9934766300388338	2,3,4,5,6,7	6	17	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_4827	Data w/o Hierarchical structure	sclens	umap	7	1.0	True	1.0	6,7	2	15	0.1052631578947368	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	sclens	snn	15	1.0	True	0.945973969465088	6,7,8,9,10,11,12,13,14,15,16,18,19,20	14	14	0.7368421052631579	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	0.9940885017318136	5,6,7,8,9,10,11,12,13,15,16,17,18	13	15	0.6842105263157895	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10,11	2	11	0.1052631578947368	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	sclens	snn	11	1.0	True	0.9309761868499032	10,11,12,15,17,18,19	7	7	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	7,8,9,10,11	5	12	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-sim_TMuris_5033	Data w/o Hierarchical structure	sclens	snn	10	1.0	True	1.0	10,11	2	11	0.1052631578947368	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-sim_TMuris_5033	Data w/o Hierarchical structure	sclens	knn	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-sim_TMuris_5033	Data w/o Hierarchical structure	sclens	umap	10	1.0	True	1.0	10	1	11	0.05263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-Trapnell	Data w/o Hierarchical structure	sclens	snn	3	1.0	True	0.595840140813104	2,3,4,5,6,8,9,10,11	9	18	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-Trapnell	Data w/o Hierarchical structure	sclens	knn	4	1.0081976441457878	False	0.6024285992816166	2,5	2	19	0.1052631578947368	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-Trapnell	Data w/o Hierarchical structure	sclens	umap	2	1.0	True	0.6011945154802297	2,3,4,5,6,9,10,11,12,16,17	11	19	0.5789473684210527	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_12073	Data with Hierarchical structure	sclens	snn	8	1.001026180392144	True	0.7853177565628033	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	16	19	0.8421052631578947	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_12073	Data with Hierarchical structure	sclens	knn	7	1.0091515570394654	False	0.7813831214606454	2,3,4,5,6	5	19	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_12073	Data with Hierarchical structure	sclens	umap	9	1.0033048254241677	True	0.7864754078018352	3,4,5,6,7,8,9,10,11	9	17	0.4736842105263158	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_2410	Data with Hierarchical structure	sclens	snn	7	1.0011989392658796	True	0.7567011804896708	2,3,4,5,6,7,8,9,10,11,18	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_2410	Data with Hierarchical structure	sclens	knn	7	1.000310554323019	True	0.7535213717868151	2,3,4,5,6,7	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_2410	Data with Hierarchical structure	sclens	umap	7	1.0076325170932765	False	0.7335711704779134	2,3,4,5,6,8,9,10,11	9	19	0.4736842105263158	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_3308	Data with Hierarchical structure	sclens	snn	8	1.0003390214651178	True	0.8090402762992697	2,3,4,5,6,7,8,9,10,11,12,13,14,15,18	15	18	0.7894736842105263	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_3308	Data with Hierarchical structure	sclens	knn	7	1.0	True	0.8060568933033223	2,3,4,5,6,7,8	7	18	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_3308	Data with Hierarchical structure	sclens	umap	7	1.0010662565728583	True	0.80655959768232	2,3,4,5,6,7,8,9,10,11	10	17	0.5263157894736842	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_3706	Data with Hierarchical structure	sclens	snn	10	1.0	True	0.8067316375619041	2,3,4,5,7,8,10,11,12,13,14,15	12	19	0.631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_3706	Data with Hierarchical structure	sclens	knn	8	1.000404143880561	True	0.8051819239605688	2,3,4,5,6,7,8	7	19	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_3706	Data with Hierarchical structure	sclens	umap	7	1.0024625186197127	True	0.8222673720672146	2,3,4,5,6,7,13,14	8	19	0.4210526315789473	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_3869	Data with Hierarchical structure	sclens	snn	8	1.0	True	0.7718831849219188	2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18	16	19	0.8421052631578947	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_3869	Data with Hierarchical structure	sclens	knn	7	1.0026088750893418	True	0.771234611672595	2,3,4,5,6,7	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_3869	Data with Hierarchical structure	sclens	umap	9	1.0030075243464251	True	0.7664303321853106	2,3,4,5,6,7,8,9,10,11,12	11	19	0.5789473684210527	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_4292	Data with Hierarchical structure	sclens	snn	7	1.0017659764812097	True	0.7562171888374308	2,3,4,5,6,7,8,9,10,11,12,13,14,15	14	19	0.7368421052631579	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_4292	Data with Hierarchical structure	sclens	knn	7	1.0058830835276416	False	0.754191739056613	2,3,4,5,6,8	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_4292	Data with Hierarchical structure	sclens	umap	12	1.002380331516775	True	0.737748102204055	2,3,4,5,6,8,9,12	8	18	0.4210526315789473	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_4757	Data with Hierarchical structure	sclens	snn	7	1.0105263166109593	False	0.7703173341556718	3,4,5,6,8,9,12,13,15,16,17	11	18	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_4757	Data with Hierarchical structure	sclens	knn	7	1.0074357072734088	False	0.7740231799014947	2,3,4,5,6	5	19	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_4757	Data with Hierarchical structure	sclens	umap	10	1.012731442786741	False	0.7627242910676084	3,4,5,6	4	18	0.2105263157894737	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_5730	Data with Hierarchical structure	sclens	snn	10	1.00133749986586	True	0.8145703505754585	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19	18	19	0.9473684210526315	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_5730	Data with Hierarchical structure	sclens	knn	8	1.0005058682345105	True	0.8092800717365292	2,3,4,5,6,7,8	7	19	0.3684210526315789	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_5730	Data with Hierarchical structure	sclens	umap	11	1.0040633337845652	True	0.8120512029970446	3,4,5,7,8,9,10,11,12,14,15,16,17	13	18	0.6842105263157895	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_785	Data with Hierarchical structure	sclens	snn	9	1.0	True	0.7179211627243414	2,3,4,5,6,7,8,9,11,14,16	11	19	0.5789473684210527	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_785	Data with Hierarchical structure	sclens	knn	7	1.00939994069774	False	0.7133051308196889	2,3,4,5,6,9	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_785	Data with Hierarchical structure	sclens	umap	8	1.0810834167429055	False	0.7150262016766741	2,3,4,5	4	19	0.2105263157894737	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix_7993	Data with Hierarchical structure	sclens	snn	13	1.0068058228495271	False	0.7763981870284669	2,3,4,5,6,7,8,9,10,11,12,14,15,16,18,19	16	19	0.8421052631578947	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix_7993	Data with Hierarchical structure	sclens	knn	8	1.0231187537945208	False	0.7740694039561281	2,3,4,5,6	5	17	0.2631578947368421	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix_7993	Data with Hierarchical structure	sclens	umap	8	1.0033705156646846	True	0.777508179223255	2,3,4,5,6,8	6	19	0.3157894736842105	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix4eq	Data with Hierarchical structure	sclens	snn	5	1.0	True	0.9633064670046944	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix4eq	Data with Hierarchical structure	sclens	knn	5	1.0	True	0.9640327973223668	2,3,4,5,6,7	6	19	0.3157894736842105	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix4eq	Data with Hierarchical structure	sclens	umap	4	1.0	True	0.9796578915753422	2,3,4,5,6,7,8	7	18	0.3684210526315789	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix4ueq	Data with Hierarchical structure	sclens	snn	4	1.0	True	0.986298214634362	2,3,4,5,6,7,8,9,12	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix4ueq	Data with Hierarchical structure	sclens	knn	4	1.0	True	0.985840459986346	2,3,4,5	4	19	0.2105263157894737	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix4ueq	Data with Hierarchical structure	sclens	umap	4	1.0	True	0.9802228035360746	2,3,4,5,6,8	6	19	0.3157894736842105	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-ZhengMix8eq	Data with Hierarchical structure	sclens	snn	7	1.0	True	0.7781983091845087	2,3,4,5,6,7,8,9,10	9	19	0.4736842105263158	20250806_R_scICER_sclensJulia.With_initial_membership	use reduction from sclens, and generate snn graph
-ZhengMix8eq	Data with Hierarchical structure	sclens	knn	7	1.0010046466308729	True	0.7783522047047967	2,3,4,5,6,7,8,10	8	19	0.4210526315789473	20250806_R_scICER_sclensJulia.With_initial_membership.knn	use reduction from sclens, and generate knn graph
-ZhengMix8eq	Data with Hierarchical structure	sclens	umap	9	1.0041370241487146	True	0.7836612836052412	2,3,4,5,6,7,8,9	8	19	0.4210526315789473	20250806_R_scICER_sclensJuliaUMAPinR	use reduction from sclens, and generate umap graph
-Koh	Data with Hierarchical structure	umap_run_in_julia	umap	9	1.0	True	0.9682583762212283	2,3,4,6,7,8,9,10,11,12,14	11	19	0.5789473684210527	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-Kumar	Data w/o Hierarchical structure	umap_run_in_julia	umap	3	1.0	True	1.0	2,3,5	3	16	0.1578947368421053	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_1	Data with Hierarchical structure	umap_run_in_julia	umap	8	1.004631137818262	True	0.808740154588767	2,3,4,8,10	5	15	0.2631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_2	Data with Hierarchical structure	umap_run_in_julia	umap	10	1.0080230314712413	False	0.8049472518688254	2,4,7	3	19	0.1578947368421053	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_3	Data with Hierarchical structure	umap_run_in_julia	umap	13	1.0	True	0.9673873592453074	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_4	Data with Hierarchical structure	umap_run_in_julia	umap	12	1.0	True	0.9800573050659734	2,3,5,6,7,8,9,10,11,12,13	11	18	0.5789473684210527	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_5	Data with Hierarchical structure	umap_run_in_julia	umap	12	1.0	True	0.9778178641499672	2,3,4,5,6,7,8,9,10,11,12	11	17	0.5789473684210527	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_6	Data with Hierarchical structure	umap_run_in_julia	umap	11	1.0010758292268074	True	0.9312912630162546	2,3,4,6,8,9,10,11,12	9	19	0.4736842105263158	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_7	Data with Hierarchical structure	umap_run_in_julia	umap	13	1.0	True	0.9868170885896184	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_8	Data with Hierarchical structure	umap_run_in_julia	umap	13	1.0	True	0.9917428526543568	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_9	Data with Hierarchical structure	umap_run_in_julia	umap	11	1.0	True	0.9540075933924214	2,3,4,5,6,7,8,9,10,11	10	19	0.5263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_10	Data with Hierarchical structure	umap_run_in_julia	umap	12	1.0	True	0.9922280246758648	2,3,4,5,6,7,8,9,10,11,12,13	12	19	0.631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_11	Data with Hierarchical structure	umap_run_in_julia	umap	12	1.0	True	0.9759943097749176	2,3,5,6,7,8,9,10,11,12	10	17	0.5263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_12	Data with Hierarchical structure	umap_run_in_julia	umap	11	1.0	True	0.9705724645291172	3,4,5,7,8,10,11	7	18	0.3684210526315789	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_Tcell_13	Data with Hierarchical structure	umap_run_in_julia	umap	12	1.0	True	0.967644153046555	2,3,4,6,7,9,10,11,12,13,14	11	18	0.5789473684210527	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_1004_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	9	1.0	True	0.9625707695533656	5,6,7,8,9	5	15	0.2631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_1005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	5,6,7,8,9,10,11	7	16	0.3684210526315789	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_1019	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	9,10,11,12,15,16	6	10	0.3157894736842105	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_2004_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	9,10	2	11	0.1052631578947368	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_2006	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10,11,12,13	4	10	0.2105263157894737	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_2006_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	8	1.0	True	0.9601448238522092	8,9	2	13	0.1052631578947368	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_2485	Data w/o Hierarchical structure	umap_run_in_julia	umap	4	1.0	True	1.0	4	1	12	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_3004_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10	1	8	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_3005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10	1	9	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_3016	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10,11	2	9	0.1052631578947368	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_3501	Data w/o Hierarchical structure	umap_run_in_julia	umap	6	1.0	True	1.0	6	1	14	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_3966	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10,11	2	10	0.1052631578947368	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_4005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10	1	9	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_4005_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	9,10,11	3	12	0.1578947368421053	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_4244	Data w/o Hierarchical structure	umap_run_in_julia	umap	7	1.0	True	1.0	7	1	14	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_4827	Data w/o Hierarchical structure	umap_run_in_julia	umap	7	1.0	True	1.0	6,7	2	13	0.1052631578947368	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_5005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10	1	9	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_5005_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10	1	10	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-sim_TMuris_5033	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	1.0	True	1.0	10	1	10	0.05263157894736842	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-Trapnell	Data w/o Hierarchical structure	umap_run_in_julia	umap	2	1.0	True	0.6075994169901884	2,3,4,5,11	5	18	0.2631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_785	Data with Hierarchical structure	umap_run_in_julia	umap	7	1.0102935101806818	False	0.7140349270968037	2,3,4,5	4	19	0.2105263157894737	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_2410	Data with Hierarchical structure	umap_run_in_julia	umap	7	1.028418588496072	False	0.731480479344451	2,3,4,5,6,8,9,11	8	18	0.4210526315789473	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_3308	Data with Hierarchical structure	umap_run_in_julia	umap	7	1.001266396719744	True	0.8080652881683127	2,3,4,5,6,7,9,10,11	9	18	0.4736842105263158	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_3706	Data with Hierarchical structure	umap_run_in_julia	umap	7	1.004588119731774	True	0.8220425801142413	2,3,4,5,6,7,8	7	17	0.3684210526315789	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_3869	Data with Hierarchical structure	umap_run_in_julia	umap	8	1.0018628082169396	True	0.7659557465293034	2,3,4,5,6,8,9,10	8	18	0.4210526315789473	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_4292	Data with Hierarchical structure	umap_run_in_julia	umap	10	1.0070231397793254	False	0.7454447544147684	2,3,4,5,8	5	17	0.2631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_4757	Data with Hierarchical structure	umap_run_in_julia	umap	9	1.0217572970889672	False	0.7661220645762761	3,4,5,6	4	15	0.2105263157894737	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_5730	Data with Hierarchical structure	umap_run_in_julia	umap	10	1.0029000882488543	True	0.8107132031650761	2,3,4,5,6,7,8,9,10,11,12,14,16	13	17	0.6842105263157895	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_7993	Data with Hierarchical structure	umap_run_in_julia	umap	7	1.0085533772712625	False	0.7770463738039954	2,3,4,5,6	5	16	0.2631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix_12073	Data with Hierarchical structure	umap_run_in_julia	umap	8	1.0011557776752409	True	0.7863333905847086	2,3,4,5,6,7,8,9,10	9	17	0.4736842105263158	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix4eq	Data with Hierarchical structure	umap_run_in_julia	umap	4	1.0	True	0.979657891575342	2,3,4,5,6,7,8,9	8	18	0.4210526315789473	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix4ueq	Data with Hierarchical structure	umap_run_in_julia	umap	5	1.0	True	0.9824792924846436	2,3,4,5,6	5	18	0.2631578947368421	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
-ZhengMix8eq	Data with Hierarchical structure	umap_run_in_julia	umap	9	1.006826408995721	False	0.7838848340531095	2,3,4,5,6,7	6	18	0.3157894736842105	20250715_julia_scCIE_test	use umap graph from scLENS directly. run scICE directly in julia. repeat the paper
+sample	sample_type	method	graph	Optimal_Cluster_by_ECS	consistent_cluster	Consistent_Clustering_Ratio
+Koh	Data with Hierarchical structure	Julia	umap	9	2,3,4,5,6,7,8,9,10,11,12,14	0.631578947368421
+Kumar	Data w/o Hierarchical structure	Julia	umap	3	2,3,5,8	0.2105263157894737
+sim_Tcell_1	Data with Hierarchical structure	Julia	umap	8	2,3,4,6,8,10	0.3157894736842105
+sim_Tcell_10	Data with Hierarchical structure	Julia	umap	12	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_11	Data with Hierarchical structure	Julia	umap	12	2,3,4,5,6,8,9,10,11,12	0.5263157894736842
+sim_Tcell_12	Data with Hierarchical structure	Julia	umap	11	2,3,4,5,7,8,9,10,11	0.4736842105263158
+sim_Tcell_13	Data with Hierarchical structure	Julia	umap	12	2,3,4,5,6,7,9,10,11,12,13,14,18	0.6842105263157895
+sim_Tcell_2	Data with Hierarchical structure	Julia	umap	10	2,4,6,7,10	0.2631578947368421
+sim_Tcell_3	Data with Hierarchical structure	Julia	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_4	Data with Hierarchical structure	Julia	umap	12	2,3,5,6,7,8,9,10,11,12,13,14	0.631578947368421
+sim_Tcell_5	Data with Hierarchical structure	Julia	umap	12	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_6	Data with Hierarchical structure	Julia	umap	11	2,3,4,5,6,8,9,10,11	0.4736842105263158
+sim_Tcell_7	Data with Hierarchical structure	Julia	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_8	Data with Hierarchical structure	Julia	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_9	Data with Hierarchical structure	Julia	umap	11	2,3,4,5,6,7,8,9,10,11	0.5263157894736842
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	Julia	umap	9	5,6,7,8,9,10	0.3157894736842105
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	Julia	umap	10	5,6,7,8,9,10,11	0.3684210526315789
+sim_TMuris_1019	Data w/o Hierarchical structure	Julia	umap	10	9,10,11,12,16	0.2631578947368421
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	Julia	umap	10	9,10	0.1052631578947368
+sim_TMuris_2006	Data w/o Hierarchical structure	Julia	umap	10	10,11,12,13	0.2105263157894737
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	Julia	umap	8	8,9,10	0.1578947368421053
+sim_TMuris_2485	Data w/o Hierarchical structure	Julia	umap	4	4	0.05263157894736842
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	Julia	umap	10	10	0.05263157894736842
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	Julia	umap	10	10	0.05263157894736842
+sim_TMuris_3016	Data w/o Hierarchical structure	Julia	umap	10	10,11	0.1052631578947368
+sim_TMuris_3501	Data w/o Hierarchical structure	Julia	umap	6	6	0.05263157894736842
+sim_TMuris_3966	Data w/o Hierarchical structure	Julia	umap	10	10,11	0.1052631578947368
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	Julia	umap	10	10	0.05263157894736842
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	Julia	umap	10	9,10,11,12	0.2105263157894737
+sim_TMuris_4244	Data w/o Hierarchical structure	Julia	umap	7	7	0.05263157894736842
+sim_TMuris_4827	Data w/o Hierarchical structure	Julia	umap	7	6,7	0.1052631578947368
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	Julia	umap	10	10	0.05263157894736842
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	Julia	umap	10	10	0.05263157894736842
+sim_TMuris_5033	Data w/o Hierarchical structure	Julia	umap	10	10	0.05263157894736842
+Trapnell	Data w/o Hierarchical structure	Julia	umap	2	2,3,4,5,6,7,9,10,11,12,15	0.5789473684210527
+ZhengMix_12073	Data with Hierarchical structure	Julia	umap	8	2,3,4,5,6,7,8,9,10	0.4736842105263158
+ZhengMix_2410	Data with Hierarchical structure	Julia	umap	7	2,3,4,5,6,8,9,10,11	0.4736842105263158
+ZhengMix_3308	Data with Hierarchical structure	Julia	umap	7	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+ZhengMix_3706	Data with Hierarchical structure	Julia	umap	7	2,3,4,5,6,7,8,9	0.4210526315789473
+ZhengMix_3869	Data with Hierarchical structure	Julia	umap	9	2,3,4,5,6,7,8,9,10	0.4736842105263158
+ZhengMix_4292	Data with Hierarchical structure	Julia	umap	11	2,3,4,5,8,9	0.3157894736842105
+ZhengMix_4757	Data with Hierarchical structure	Julia	umap	9	3,4,5,6	0.2105263157894737
+ZhengMix_5730	Data with Hierarchical structure	Julia	umap	11	2,3,4,5,6,7,8,9,10,11,12,13,14,16,18	0.7894736842105263
+ZhengMix_785	Data with Hierarchical structure	Julia	umap	7	2,3,4,5,7,9	0.3157894736842105
+ZhengMix_7993	Data with Hierarchical structure	Julia	umap	8	2,3,4,5,6,9	0.3157894736842105
+ZhengMix4eq	Data with Hierarchical structure	Julia	umap	4	2,3,4,5,6,7,8,9	0.4210526315789473
+ZhengMix4ueq	Data with Hierarchical structure	Julia	umap	5	2,3,4,5,6,8	0.3157894736842105
+ZhengMix8eq	Data with Hierarchical structure	Julia	umap	9	2,3,4,5,6,7,8,9	0.4210526315789473
+Koh	Data with Hierarchical structure	RNA	snn	10	2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20	0.9473684210526315
+Koh	Data with Hierarchical structure	RNA	knn	11	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	0.8421052631578947
+Koh	Data with Hierarchical structure	RNA	umap	10	2,3,4,5,6,7,8,9,10,11,12,13,14,15	0.7368421052631579
+Kumar	Data w/o Hierarchical structure	RNA	snn	4	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	0.8421052631578947
+Kumar	Data w/o Hierarchical structure	RNA	knn	4	2,3,4,5,6,7,8,10	0.4210526315789473
+Kumar	Data w/o Hierarchical structure	RNA	umap	3	2,3,8	0.1578947368421053
+sim_Tcell_1	Data with Hierarchical structure	RNA	snn	9	2	0.05263157894736842
+sim_Tcell_1	Data with Hierarchical structure	RNA	knn	7	2	0.05263157894736842
+sim_Tcell_1	Data with Hierarchical structure	RNA	umap	11	2,3,4	0.1578947368421053
+sim_Tcell_10	Data with Hierarchical structure	RNA	snn	13	2,3,4,5,6,7,8,9,10,11,13,14,15,17,18,19,20	0.8947368421052632
+sim_Tcell_10	Data with Hierarchical structure	RNA	knn	12	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_10	Data with Hierarchical structure	RNA	umap	13	2,3,5,6,7,8,9,10,11,12,13	0.5789473684210527
+sim_Tcell_11	Data with Hierarchical structure	RNA	snn	16	2,3,4,5,6,7,8,9,10,11,12,13,17	0.6842105263157895
+sim_Tcell_11	Data with Hierarchical structure	RNA	knn	11	2,3,4,6	0.2105263157894737
+sim_Tcell_11	Data with Hierarchical structure	RNA	umap	10	2,3,4,5	0.2105263157894737
+sim_Tcell_12	Data with Hierarchical structure	RNA	snn	12	2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20	0.9473684210526315
+sim_Tcell_12	Data with Hierarchical structure	RNA	knn	10	2,3,4,5,6,7,8,9,10	0.4736842105263158
+sim_Tcell_12	Data with Hierarchical structure	RNA	umap	11	2,3,4,5,7,8,9,10,11,12	0.5263157894736842
+sim_Tcell_13	Data with Hierarchical structure	RNA	snn	10	2,4,5,6,7,8,9,11,12,13,14,15,16,20	0.7368421052631579
+sim_Tcell_13	Data with Hierarchical structure	RNA	knn	11	2,3,5	0.1578947368421053
+sim_Tcell_13	Data with Hierarchical structure	RNA	umap	11	2,3,6	0.1578947368421053
+sim_Tcell_2	Data with Hierarchical structure	RNA	snn	20	2,3,4,10	0.2105263157894737
+sim_Tcell_2	Data with Hierarchical structure	RNA	knn	16	2,3,5	0.1578947368421053
+sim_Tcell_2	Data with Hierarchical structure	RNA	umap	16	2,4,5	0.1578947368421053
+sim_Tcell_3	Data with Hierarchical structure	RNA	snn	15	2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,20	0.8421052631578947
+sim_Tcell_3	Data with Hierarchical structure	RNA	knn	12	2,3,4,5,7	0.2631578947368421
+sim_Tcell_3	Data with Hierarchical structure	RNA	umap	11	2,3,4,5,8,10	0.3157894736842105
+sim_Tcell_4	Data with Hierarchical structure	RNA	snn	17	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	1
+sim_Tcell_4	Data with Hierarchical structure	RNA	knn	12	2,3,4,5,8,9,10,11,12	0.4736842105263158
+sim_Tcell_4	Data with Hierarchical structure	RNA	umap	12	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_5	Data with Hierarchical structure	RNA	snn	12	2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20	0.8947368421052632
+sim_Tcell_5	Data with Hierarchical structure	RNA	knn	10	2,4,5,7,8,9,10	0.3684210526315789
+sim_Tcell_5	Data with Hierarchical structure	RNA	umap	11	2,4,5,8,10,11	0.3157894736842105
+sim_Tcell_6	Data with Hierarchical structure	RNA	snn	8	2,3,4,5,6,7,11,12,13,14,15	0.5789473684210527
+sim_Tcell_6	Data with Hierarchical structure	RNA	knn	10	2,3	0.1052631578947368
+sim_Tcell_6	Data with Hierarchical structure	RNA	umap	9	2,4	0.1052631578947368
+sim_Tcell_7	Data with Hierarchical structure	RNA	snn	16	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20	0.9473684210526315
+sim_Tcell_7	Data with Hierarchical structure	RNA	knn	12	2,4,5,6,7,8,9,10,11	0.4736842105263158
+sim_Tcell_7	Data with Hierarchical structure	RNA	umap	11	2,3,4,5,6,8,9,10,11	0.4736842105263158
+sim_Tcell_8	Data with Hierarchical structure	RNA	snn	13	2,3,4,5,6,7,8,9,10,11,12,13,14,16,18	0.7894736842105263
+sim_Tcell_8	Data with Hierarchical structure	RNA	knn	12	2,3,5,6,7,8,9,10,11,12,13	0.5789473684210527
+sim_Tcell_8	Data with Hierarchical structure	RNA	umap	11	2,3,4,5,6,7,8,9,11	0.4736842105263158
+sim_Tcell_9	Data with Hierarchical structure	RNA	snn	11	2,3,4,6,7,8,9,10,11,12,13,15,17,18,19,20	0.8421052631578947
+sim_Tcell_9	Data with Hierarchical structure	RNA	knn	11	2,3,4,5,7,11,12	0.3684210526315789
+sim_Tcell_9	Data with Hierarchical structure	RNA	umap	11	2,3,4,5,11	0.2631578947368421
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	RNA	snn	9	6,7,8,9,11,12,13,15,18	0.4736842105263158
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	RNA	knn	8	4,5,6,7,8	0.2631578947368421
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	RNA	umap	8	8,9	0.1052631578947368
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	RNA	snn	9	8,9,10,11,12,13,14,15,16,17,20	0.5789473684210527
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	RNA	knn	9	4,5,6,7,8,9,10,11,12	0.4736842105263158
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	RNA	umap	10	8,9,10,11,12,13,14	0.3684210526315789
+sim_TMuris_1019	Data w/o Hierarchical structure	RNA	snn	10	9,10,11,12,13,14,17,18,19	0.4736842105263158
+sim_TMuris_1019	Data w/o Hierarchical structure	RNA	knn	10	7,8,9,10,11,12,13,14	0.4210526315789473
+sim_TMuris_1019	Data w/o Hierarchical structure	RNA	umap	10	10,11,12,14,15	0.2631578947368421
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	RNA	snn	10	6,7,8,9,10	0.2631578947368421
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	RNA	knn	10	5,6,7,8,9,10	0.3157894736842105
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	RNA	umap	10	8,9,10	0.1578947368421053
+sim_TMuris_2006	Data w/o Hierarchical structure	RNA	snn	10	10,11,12,13,14,16,17,18	0.4210526315789473
+sim_TMuris_2006	Data w/o Hierarchical structure	RNA	knn	10	9,10,11,14	0.2105263157894737
+sim_TMuris_2006	Data w/o Hierarchical structure	RNA	umap	10	10,12,13,14,15,18	0.3157894736842105
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	RNA	snn	9	7,8,9,10,11,12,13,14,15	0.4736842105263158
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	RNA	knn	8	6,7,8	0.1578947368421053
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	RNA	umap	8	8	0.05263157894736842
+sim_TMuris_2485	Data w/o Hierarchical structure	RNA	snn	3	2,3	0.1052631578947368
+sim_TMuris_2485	Data w/o Hierarchical structure	RNA	knn	4	2,3,4	0.1578947368421053
+sim_TMuris_2485	Data w/o Hierarchical structure	RNA	umap	4	3,4	0.1052631578947368
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	RNA	snn	10	8,9,10,11	0.2105263157894737
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	RNA	knn	10	6,7,8,9,10	0.2631578947368421
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	RNA	umap	10	9,10	0.1052631578947368
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	RNA	snn	9	9,10	0.1052631578947368
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	RNA	knn	9	8,9	0.1052631578947368
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	RNA	umap	10	9,10	0.1052631578947368
+sim_TMuris_3016	Data w/o Hierarchical structure	RNA	snn	10	10,11,12,13,15,18	0.3157894736842105
+sim_TMuris_3016	Data w/o Hierarchical structure	RNA	knn	10	9,10,11	0.1578947368421053
+sim_TMuris_3016	Data w/o Hierarchical structure	RNA	umap	10	10,11,12,13	0.2105263157894737
+sim_TMuris_3501	Data w/o Hierarchical structure	RNA	snn	6	6	0.05263157894736842
+sim_TMuris_3501	Data w/o Hierarchical structure	RNA	knn	6	6	0.05263157894736842
+sim_TMuris_3501	Data w/o Hierarchical structure	RNA	umap	6	6	0.05263157894736842
+sim_TMuris_3966	Data w/o Hierarchical structure	RNA	snn	10	7,8,9,10,11	0.2631578947368421
+sim_TMuris_3966	Data w/o Hierarchical structure	RNA	knn	10	7,8,9,10,11,12	0.3157894736842105
+sim_TMuris_3966	Data w/o Hierarchical structure	RNA	umap	10	8,9,10,12	0.2105263157894737
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	RNA	snn	10	9,10,11,12,13,14,15,16,18	0.4736842105263158
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	RNA	knn	10	7,8,9,10	0.2105263157894737
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	RNA	umap	10	8,9,10	0.1578947368421053
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	RNA	snn	10	8,9,10,11	0.2105263157894737
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	RNA	knn	10	4,5,6,7,8,9,10	0.3684210526315789
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	RNA	umap	10	7,8,9,10	0.2105263157894737
+sim_TMuris_4244	Data w/o Hierarchical structure	RNA	snn	7	5,6,7,8	0.2105263157894737
+sim_TMuris_4244	Data w/o Hierarchical structure	RNA	knn	7	4,5,6,7	0.2105263157894737
+sim_TMuris_4244	Data w/o Hierarchical structure	RNA	umap	7	7	0.05263157894736842
+sim_TMuris_4827	Data w/o Hierarchical structure	RNA	snn	7	7,8,9,10	0.2105263157894737
+sim_TMuris_4827	Data w/o Hierarchical structure	RNA	knn	7	7,8	0.1052631578947368
+sim_TMuris_4827	Data w/o Hierarchical structure	RNA	umap	7	7,8	0.1052631578947368
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	RNA	snn	10	9,10	0.1052631578947368
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	RNA	knn	10	9,10	0.1052631578947368
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	RNA	umap	10	9,10,11	0.1578947368421053
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	RNA	snn	10	9,10	0.1052631578947368
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	RNA	knn	10	9,10	0.1052631578947368
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	RNA	umap	10	10	0.05263157894736842
+sim_TMuris_5033	Data w/o Hierarchical structure	RNA	snn	10	10,11,15,16	0.2105263157894737
+sim_TMuris_5033	Data w/o Hierarchical structure	RNA	knn	10	9,10	0.1052631578947368
+sim_TMuris_5033	Data w/o Hierarchical structure	RNA	umap	10	10	0.05263157894736842
+Trapnell	Data w/o Hierarchical structure	RNA	snn	3	2,3,4,5,6,7,8,9,10,14,15,20	0.631578947368421
+Trapnell	Data w/o Hierarchical structure	RNA	knn	4	2,3,4,5,6	0.2631578947368421
+Trapnell	Data w/o Hierarchical structure	RNA	umap	3	2,3,6	0.1578947368421053
+ZhengMix_12073	Data with Hierarchical structure	RNA	snn	7	3,4,5,6,7,9,10,12,13,16,17,18,19,20	0.7368421052631579
+ZhengMix_12073	Data with Hierarchical structure	RNA	knn	6	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_12073	Data with Hierarchical structure	RNA	umap	6	2,3,4,5	0.2105263157894737
+ZhengMix_2410	Data with Hierarchical structure	RNA	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14	0.6842105263157895
+ZhengMix_2410	Data with Hierarchical structure	RNA	knn	9	2,3,4,5,6,8,11	0.3684210526315789
+ZhengMix_2410	Data with Hierarchical structure	RNA	umap	7	2,3,4,7	0.2105263157894737
+ZhengMix_3308	Data with Hierarchical structure	RNA	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	1
+ZhengMix_3308	Data with Hierarchical structure	RNA	knn	13	2,3,4,5,6,7,8,13	0.4210526315789473
+ZhengMix_3308	Data with Hierarchical structure	RNA	umap	7	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_3706	Data with Hierarchical structure	RNA	snn	6	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	1
+ZhengMix_3706	Data with Hierarchical structure	RNA	knn	6	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_3706	Data with Hierarchical structure	RNA	umap	6	2,3,4,5,9	0.2631578947368421
+ZhengMix_3869	Data with Hierarchical structure	RNA	snn	11	2,3,4,5,6,7,8,10,11,12,13,14,15,17,18,19	0.8421052631578947
+ZhengMix_3869	Data with Hierarchical structure	RNA	knn	8	2,3,4,5,6,10	0.3157894736842105
+ZhengMix_3869	Data with Hierarchical structure	RNA	umap	6	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_4292	Data with Hierarchical structure	RNA	snn	9	2,3,4,5,6,7,8,9,10,11,12,13,14,17	0.7368421052631579
+ZhengMix_4292	Data with Hierarchical structure	RNA	knn	6	2,3,4,5,6	0.2631578947368421
+ZhengMix_4292	Data with Hierarchical structure	RNA	umap	9	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_4757	Data with Hierarchical structure	RNA	snn	14	2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,20	0.8947368421052632
+ZhengMix_4757	Data with Hierarchical structure	RNA	knn	6	2,3,4,5,6	0.2631578947368421
+ZhengMix_4757	Data with Hierarchical structure	RNA	umap	6	2,3,4,5,6	0.2631578947368421
+ZhengMix_5730	Data with Hierarchical structure	RNA	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	1
+ZhengMix_5730	Data with Hierarchical structure	RNA	knn	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_5730	Data with Hierarchical structure	RNA	umap	9	2,3,4,5,6,9,10,11,12,13,14,15	0.631578947368421
+ZhengMix_785	Data with Hierarchical structure	RNA	snn	14	2,3,4,5,6,7,8,9,10,11,12,14,15,16,20	0.7894736842105263
+ZhengMix_785	Data with Hierarchical structure	RNA	knn	10	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_785	Data with Hierarchical structure	RNA	umap	6	2,3,4	0.1578947368421053
+ZhengMix_7993	Data with Hierarchical structure	RNA	snn	7	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	1
+ZhengMix_7993	Data with Hierarchical structure	RNA	knn	8	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_7993	Data with Hierarchical structure	RNA	umap	9	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix4eq	Data with Hierarchical structure	RNA	snn	5	2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,19	0.8421052631578947
+ZhengMix4eq	Data with Hierarchical structure	RNA	knn	5	2,3,4,5,6	0.2631578947368421
+ZhengMix4eq	Data with Hierarchical structure	RNA	umap	6	2,3,4,6,8	0.2631578947368421
+ZhengMix4ueq	Data with Hierarchical structure	RNA	snn	6	2,3,4,5,6,7,10,11,13	0.4736842105263158
+ZhengMix4ueq	Data with Hierarchical structure	RNA	knn	5	2,3,4,5	0.2105263157894737
+ZhengMix4ueq	Data with Hierarchical structure	RNA	umap	6	2,3,4,5,6	0.2631578947368421
+ZhengMix8eq	Data with Hierarchical structure	RNA	snn	7	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	1
+ZhengMix8eq	Data with Hierarchical structure	RNA	knn	7	2,3,4,5,6,7,8,11	0.4210526315789473
+ZhengMix8eq	Data with Hierarchical structure	RNA	umap	7	2,3,4,5,6,7,8	0.3684210526315789
+Koh	Data with Hierarchical structure	SCT	snn	9	4,5,6,7,8,9,10,11,12,14,15,20	0.631578947368421
+Koh	Data with Hierarchical structure	SCT	knn	9	2,3,4,5,6,7,8,9,11,12	0.5263157894736842
+Koh	Data with Hierarchical structure	SCT	umap	9	2,3,4,5,6,7,8,9,10,11,12,15	0.631578947368421
+Kumar	Data w/o Hierarchical structure	SCT	snn	3	2,3,4,5,9,10	0.3157894736842105
+Kumar	Data w/o Hierarchical structure	SCT	knn	3	2,3,4,6	0.2105263157894737
+Kumar	Data w/o Hierarchical structure	SCT	umap	3	2,3,4,5,6,7	0.3157894736842105
+sim_Tcell_1	Data with Hierarchical structure	SCT	snn	10	2,3,6,7,10	0.2631578947368421
+sim_Tcell_1	Data with Hierarchical structure	SCT	knn	7	2,3	0.1052631578947368
+sim_Tcell_1	Data with Hierarchical structure	SCT	umap	8	2,3,4	0.1578947368421053
+sim_Tcell_10	Data with Hierarchical structure	SCT	snn	10	2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	0.8947368421052632
+sim_Tcell_10	Data with Hierarchical structure	SCT	knn	9	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_10	Data with Hierarchical structure	SCT	umap	7	2,3,4,5,6,8,9,10,11,13,14,15,16	0.6842105263157895
+sim_Tcell_11	Data with Hierarchical structure	SCT	snn	14	2,3,4,5,6,9,10,12,13,14,15,16,17,18,19,20	0.8421052631578947
+sim_Tcell_11	Data with Hierarchical structure	SCT	knn	8	2,3,4,5,6,11,13	0.3684210526315789
+sim_Tcell_11	Data with Hierarchical structure	SCT	umap	9	2,4,6,7,8,9,10,12,13	0.4736842105263158
+sim_Tcell_12	Data with Hierarchical structure	SCT	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18	0.8421052631578947
+sim_Tcell_12	Data with Hierarchical structure	SCT	knn	8	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_12	Data with Hierarchical structure	SCT	umap	9	2,4,5,6,7,8,9,10,11,12,13,14	0.631578947368421
+sim_Tcell_13	Data with Hierarchical structure	SCT	snn	8	2,3,4,5,6,9	0.3157894736842105
+sim_Tcell_13	Data with Hierarchical structure	SCT	knn	8	2,4,6,9	0.2105263157894737
+sim_Tcell_13	Data with Hierarchical structure	SCT	umap	9	2,3,4,5,6,8,9,10,11,12	0.5263157894736842
+sim_Tcell_2	Data with Hierarchical structure	SCT	snn	12	2,3,6,7	0.2105263157894737
+sim_Tcell_2	Data with Hierarchical structure	SCT	knn	10	2	0.05263157894736842
+sim_Tcell_2	Data with Hierarchical structure	SCT	umap	12	2,4,5,7,8,9,10	0.3684210526315789
+sim_Tcell_3	Data with Hierarchical structure	SCT	snn	13	2,3,4,5,6,7,8,10,15,16,17,18,19,20	0.7368421052631579
+sim_Tcell_3	Data with Hierarchical structure	SCT	knn	11	2,5,10	0.1578947368421053
+sim_Tcell_3	Data with Hierarchical structure	SCT	umap	13	2,3,4,5,7,8,9,10,11,13	0.5263157894736842
+sim_Tcell_4	Data with Hierarchical structure	SCT	snn	13	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	0.8421052631578947
+sim_Tcell_4	Data with Hierarchical structure	SCT	knn	12	2,3,5,6,7,8,10,12	0.4210526315789473
+sim_Tcell_4	Data with Hierarchical structure	SCT	umap	13	2,3,4,5,6,7,8,10,11,14,15	0.5789473684210527
+sim_Tcell_5	Data with Hierarchical structure	SCT	snn	17	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18	0.8947368421052632
+sim_Tcell_5	Data with Hierarchical structure	SCT	knn	12	2,3,4,5,8,11,12,13	0.4210526315789473
+sim_Tcell_5	Data with Hierarchical structure	SCT	umap	12	2,3,4,5,6,7,8,10,11,12,14	0.5789473684210527
+sim_Tcell_6	Data with Hierarchical structure	SCT	snn	11	2,3,4,5,6,8,10	0.3684210526315789
+sim_Tcell_6	Data with Hierarchical structure	SCT	knn	10	2,5,7	0.1578947368421053
+sim_Tcell_6	Data with Hierarchical structure	SCT	umap	9	2,6,7,8,9,10,11	0.3684210526315789
+sim_Tcell_7	Data with Hierarchical structure	SCT	snn	15	2,4,5,6,7,9,10,11,12,13,15,17,18,19,20	0.7894736842105263
+sim_Tcell_7	Data with Hierarchical structure	SCT	knn	12	2,4,5,6,7,10,11,13	0.4210526315789473
+sim_Tcell_7	Data with Hierarchical structure	SCT	umap	12	2,4,5,6,7,9,10,11,12,13	0.5263157894736842
+sim_Tcell_8	Data with Hierarchical structure	SCT	snn	13	2,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19	0.8421052631578947
+sim_Tcell_8	Data with Hierarchical structure	SCT	knn	12	2,4,5,6,7,8,9,10,11,12	0.5263157894736842
+sim_Tcell_8	Data with Hierarchical structure	SCT	umap	14	2,5,6,7,9,10,11,13	0.4210526315789473
+sim_Tcell_9	Data with Hierarchical structure	SCT	snn	15	2,3,5,6,7,10,12,13,14,15	0.5263157894736842
+sim_Tcell_9	Data with Hierarchical structure	SCT	knn	10	2,4,5,6,10,11,12	0.3684210526315789
+sim_Tcell_9	Data with Hierarchical structure	SCT	umap	10	2,4,6,7,8,9,10,11,12,13	0.5263157894736842
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	SCT	snn	8	5,6,7,8,11	0.2631578947368421
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	SCT	knn	8	5,6,7,8	0.2105263157894737
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	SCT	umap	8	8	0.05263157894736842
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	SCT	snn	9	6,7,8,9,10	0.2631578947368421
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	SCT	knn	9	4,5,6,7,8,9	0.3157894736842105
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	SCT	umap	10	8,9,10	0.1578947368421053
+sim_TMuris_1019	Data w/o Hierarchical structure	SCT	snn	10	6,7,8,9,10,11,12,13,14,15,19	0.5789473684210527
+sim_TMuris_1019	Data w/o Hierarchical structure	SCT	knn	10	6,7,8,9,10,11,12,13,15,16	0.5263157894736842
+sim_TMuris_1019	Data w/o Hierarchical structure	SCT	umap	10	7,8,9,10,11,13,14,15,16,17,18	0.5789473684210527
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	SCT	snn	9	7,8,9,11	0.2105263157894737
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	SCT	knn	9	5,6,7,8,9	0.2631578947368421
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	SCT	umap	10	6,7,8,9,10	0.2631578947368421
+sim_TMuris_2006	Data w/o Hierarchical structure	SCT	snn	10	8,9,10,11,13,14,20	0.3684210526315789
+sim_TMuris_2006	Data w/o Hierarchical structure	SCT	knn	10	7,8,9,10,11	0.2631578947368421
+sim_TMuris_2006	Data w/o Hierarchical structure	SCT	umap	10	10,11,12	0.1578947368421053
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	SCT	snn	7	5,6,7,8	0.2105263157894737
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	SCT	knn	7	5,6,7	0.1578947368421053
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	SCT	umap	8	6,7,8	0.1578947368421053
+sim_TMuris_2485	Data w/o Hierarchical structure	SCT	snn	4	2,3,4,5	0.2105263157894737
+sim_TMuris_2485	Data w/o Hierarchical structure	SCT	knn	4	2,3,4	0.1578947368421053
+sim_TMuris_2485	Data w/o Hierarchical structure	SCT	umap	4	2,3,4	0.1578947368421053
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	SCT	snn	10	6,7,8,9,10	0.2631578947368421
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	SCT	knn	10	5,6,7,8,9,10	0.3157894736842105
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	SCT	umap	9	8,9	0.1052631578947368
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	SCT	snn	9	8,9,10	0.1578947368421053
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	SCT	knn	9	7,8,9	0.1578947368421053
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	SCT	umap	9	8,9	0.1052631578947368
+sim_TMuris_3016	Data w/o Hierarchical structure	SCT	snn	10	9,10,11,12,13,15	0.3157894736842105
+sim_TMuris_3016	Data w/o Hierarchical structure	SCT	knn	10	8,9,10	0.1578947368421053
+sim_TMuris_3016	Data w/o Hierarchical structure	SCT	umap	10	10	0.05263157894736842
+sim_TMuris_3501	Data w/o Hierarchical structure	SCT	snn	6	6	0.05263157894736842
+sim_TMuris_3501	Data w/o Hierarchical structure	SCT	knn	6	6	0.05263157894736842
+sim_TMuris_3501	Data w/o Hierarchical structure	SCT	umap	6	6	0.05263157894736842
+sim_TMuris_3966	Data w/o Hierarchical structure	SCT	snn	10	7,8,9,10,11,12,15,17	0.4210526315789473
+sim_TMuris_3966	Data w/o Hierarchical structure	SCT	knn	10	5,6,7,8,9,10,11	0.3684210526315789
+sim_TMuris_3966	Data w/o Hierarchical structure	SCT	umap	10	9,10,11	0.1578947368421053
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	SCT	snn	10	7,8,9,10,11	0.2631578947368421
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	SCT	knn	10	6,7,8,9,10	0.2631578947368421
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	SCT	umap	10	10	0.05263157894736842
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	SCT	snn	9	5,6,7,8,9	0.2631578947368421
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	SCT	knn	9	3,4,5,6,7,8,9	0.3684210526315789
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	SCT	umap	10	6,7,8,9,10,11	0.3157894736842105
+sim_TMuris_4244	Data w/o Hierarchical structure	SCT	snn	7	5,6,7	0.1578947368421053
+sim_TMuris_4244	Data w/o Hierarchical structure	SCT	knn	7	5,6,7	0.1578947368421053
+sim_TMuris_4244	Data w/o Hierarchical structure	SCT	umap	7	7	0.05263157894736842
+sim_TMuris_4827	Data w/o Hierarchical structure	SCT	snn	7	7	0.05263157894736842
+sim_TMuris_4827	Data w/o Hierarchical structure	SCT	knn	7	7	0.05263157894736842
+sim_TMuris_4827	Data w/o Hierarchical structure	SCT	umap	7	7	0.05263157894736842
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	SCT	snn	10	8,9,10	0.1578947368421053
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	SCT	knn	10	7,8,9,10	0.2105263157894737
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	SCT	umap	10	8,9,10	0.1578947368421053
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	SCT	snn	10	8,9,10,11	0.2105263157894737
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	SCT	knn	10	7,8,9,10	0.2105263157894737
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	SCT	umap	10	10	0.05263157894736842
+sim_TMuris_5033	Data w/o Hierarchical structure	SCT	snn	10	10,11	0.1052631578947368
+sim_TMuris_5033	Data w/o Hierarchical structure	SCT	knn	10	8,9,10	0.1578947368421053
+sim_TMuris_5033	Data w/o Hierarchical structure	SCT	umap	10	10	0.05263157894736842
+Trapnell	Data w/o Hierarchical structure	SCT	snn	3	2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,20	0.8947368421052632
+Trapnell	Data w/o Hierarchical structure	SCT	knn	4	2,3,4,12,13,14	0.3157894736842105
+Trapnell	Data w/o Hierarchical structure	SCT	umap	2	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_12073	Data with Hierarchical structure	SCT	snn	9	2,3,4,5,6,7,10,11,14,16,18	0.5789473684210527
+ZhengMix_12073	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_12073	Data with Hierarchical structure	SCT	umap	7	2,3,4,5,14	0.2631578947368421
+ZhengMix_2410	Data with Hierarchical structure	SCT	snn	9	2,3,4,5,6,7,8,9,11,12,14,15	0.631578947368421
+ZhengMix_2410	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_2410	Data with Hierarchical structure	SCT	umap	7	2,3,4,5,8,9,11,12,13,14	0.5263157894736842
+ZhengMix_3308	Data with Hierarchical structure	SCT	snn	7	2,3,4,5,6,7,8,9,10,11,12,13,14	0.6842105263157895
+ZhengMix_3308	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_3308	Data with Hierarchical structure	SCT	umap	7	2,3,4,6,9,10,14	0.3684210526315789
+ZhengMix_3706	Data with Hierarchical structure	SCT	snn	10	2,3,4,5,6,7,8,9,10,11,12,13,14,17	0.7368421052631579
+ZhengMix_3706	Data with Hierarchical structure	SCT	knn	8	2,3,4,5,6,7,8,10	0.4210526315789473
+ZhengMix_3706	Data with Hierarchical structure	SCT	umap	8	2,3,4,5,9	0.2631578947368421
+ZhengMix_3869	Data with Hierarchical structure	SCT	snn	7	2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20	0.9473684210526315
+ZhengMix_3869	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,8,9	0.3157894736842105
+ZhengMix_3869	Data with Hierarchical structure	SCT	umap	8	2,3,4,5,7,8	0.3157894736842105
+ZhengMix_4292	Data with Hierarchical structure	SCT	snn	8	2,3,4,5,6,7,8,9,10,12,13,14,15,16	0.7368421052631579
+ZhengMix_4292	Data with Hierarchical structure	SCT	knn	7	2,3,4,5	0.2105263157894737
+ZhengMix_4292	Data with Hierarchical structure	SCT	umap	8	2,3,4,7,8,9,11	0.3684210526315789
+ZhengMix_4757	Data with Hierarchical structure	SCT	snn	12	2,3,4,5,6,7,8,10,13,16	0.5263157894736842
+ZhengMix_4757	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_4757	Data with Hierarchical structure	SCT	umap	7	2,3,4	0.1578947368421053
+ZhengMix_5730	Data with Hierarchical structure	SCT	snn	6	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+ZhengMix_5730	Data with Hierarchical structure	SCT	knn	6	2,3,4,5	0.2105263157894737
+ZhengMix_5730	Data with Hierarchical structure	SCT	umap	8	3,5,6,7,9	0.2631578947368421
+ZhengMix_785	Data with Hierarchical structure	SCT	snn	10	2,3,4,5,6,7,8,9,10,11,12,13,14,18,19	0.7894736842105263
+ZhengMix_785	Data with Hierarchical structure	SCT	knn	11	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_785	Data with Hierarchical structure	SCT	umap	9	2,3,4	0.1578947368421053
+ZhengMix_7993	Data with Hierarchical structure	SCT	snn	7	2,3,4,5,7,8,10,11,12,13,15	0.5789473684210527
+ZhengMix_7993	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_7993	Data with Hierarchical structure	SCT	umap	7	2,3,4,10	0.2105263157894737
+ZhengMix4eq	Data with Hierarchical structure	SCT	snn	5	2,3,4,5,6,7,8,11,13,16	0.5263157894736842
+ZhengMix4eq	Data with Hierarchical structure	SCT	knn	4	2,3,4,5,6,7	0.3157894736842105
+ZhengMix4eq	Data with Hierarchical structure	SCT	umap	4	2,3,5,6,7,8,9	0.3684210526315789
+ZhengMix4ueq	Data with Hierarchical structure	SCT	snn	4	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix4ueq	Data with Hierarchical structure	SCT	knn	4	2,3,4,5,6	0.2631578947368421
+ZhengMix4ueq	Data with Hierarchical structure	SCT	umap	5	2,3,4,5,6	0.2631578947368421
+ZhengMix8eq	Data with Hierarchical structure	SCT	snn	7	2,3,4,5,6,7,8,9,10,11,12,13,15,16,18,19,20	0.8947368421052632
+ZhengMix8eq	Data with Hierarchical structure	SCT	knn	7	2,3,4,5,7,8	0.3157894736842105
+ZhengMix8eq	Data with Hierarchical structure	SCT	umap	9	2,3,4,5,6,7,8,12	0.4210526315789473
+Koh	Data with Hierarchical structure	sclens	snn	9	2,3,4,5,6,7,8,9,10,11,12,14,15,17,18,19	0.8421052631578947
+Koh	Data with Hierarchical structure	sclens	knn	9	2,3,4,5,6,7,8,9,10,11,12,13,15,16	0.7368421052631579
+Koh	Data with Hierarchical structure	sclens	umap	9	2,3,4,5,6,7,8,9,11,12,13,17	0.631578947368421
+Kumar	Data w/o Hierarchical structure	sclens	snn	3	2,3,4,5,7,8,9,10,18	0.4736842105263158
+Kumar	Data w/o Hierarchical structure	sclens	knn	3	2,3,4,5	0.2105263157894737
+Kumar	Data w/o Hierarchical structure	sclens	umap	3	2,3,5,8	0.2105263157894737
+sim_Tcell_1	Data with Hierarchical structure	sclens	snn	13	2,3,4,5,6,7,8,9,11,12,13,14,15	0.6842105263157895
+sim_Tcell_1	Data with Hierarchical structure	sclens	knn	7	2,3,4,5	0.2105263157894737
+sim_Tcell_1	Data with Hierarchical structure	sclens	umap	8	2,3,4,6,8,9,10	0.3684210526315789
+sim_Tcell_10	Data with Hierarchical structure	sclens	snn	11	4,5,6,7,8,9,10,11,12,13,14,15,16,17,20	0.7894736842105263
+sim_Tcell_10	Data with Hierarchical structure	sclens	knn	10	2,3,4,5,6,7,8,9,10,12	0.5263157894736842
+sim_Tcell_10	Data with Hierarchical structure	sclens	umap	12	3,4,5,6,7,8,9,10,11,12	0.5263157894736842
+sim_Tcell_11	Data with Hierarchical structure	sclens	snn	11	2,3,4,5,6,7,8,9,10,11,12,13,14,15,18	0.7894736842105263
+sim_Tcell_11	Data with Hierarchical structure	sclens	knn	11	2,3,4,6,8,9,10	0.3684210526315789
+sim_Tcell_11	Data with Hierarchical structure	sclens	umap	12	2,3,4,5,8,9,10,11,12	0.4736842105263158
+sim_Tcell_12	Data with Hierarchical structure	sclens	snn	11	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_12	Data with Hierarchical structure	sclens	knn	10	2,3,4,5,6,7,8,9,10	0.4736842105263158
+sim_Tcell_12	Data with Hierarchical structure	sclens	umap	11	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_13	Data with Hierarchical structure	sclens	snn	12	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18	0.8421052631578947
+sim_Tcell_13	Data with Hierarchical structure	sclens	knn	11	2,3,5,8,9,11,12,13,14,15	0.5263157894736842
+sim_Tcell_13	Data with Hierarchical structure	sclens	umap	12	2,3,4,5,6,7,9,10,11,12,13	0.5789473684210527
+sim_Tcell_2	Data with Hierarchical structure	sclens	snn	11	2,3,4,5,6,7,9,11	0.4210526315789473
+sim_Tcell_2	Data with Hierarchical structure	sclens	knn	10	2,4,5,6,7,8	0.3157894736842105
+sim_Tcell_2	Data with Hierarchical structure	sclens	umap	10	2,7,12	0.1578947368421053
+sim_Tcell_3	Data with Hierarchical structure	sclens	snn	13	2,3,4,5,6,7,8,9,10,11,12,13,14,20	0.7368421052631579
+sim_Tcell_3	Data with Hierarchical structure	sclens	knn	12	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_3	Data with Hierarchical structure	sclens	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_4	Data with Hierarchical structure	sclens	snn	12	2,3,4,5,6,7,8,10,11,12,14,18	0.631578947368421
+sim_Tcell_4	Data with Hierarchical structure	sclens	knn	12	2,3,4,5,6,7,8,9,10,11,12,13,14	0.6842105263157895
+sim_Tcell_4	Data with Hierarchical structure	sclens	umap	12	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_5	Data with Hierarchical structure	sclens	snn	12	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20	0.9473684210526315
+sim_Tcell_5	Data with Hierarchical structure	sclens	knn	12	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_5	Data with Hierarchical structure	sclens	umap	13	2,3,4,5,6,7,8,9,10,11,12,13,14	0.6842105263157895
+sim_Tcell_6	Data with Hierarchical structure	sclens	snn	11	2,4,5,6,7,8,9,10,11,12,13,14,15,16,17	0.7894736842105263
+sim_Tcell_6	Data with Hierarchical structure	sclens	knn	10	2,4,5,6,7,8,9	0.3684210526315789
+sim_Tcell_6	Data with Hierarchical structure	sclens	umap	11	2,3,4,6,8,9,10,11	0.4210526315789473
+sim_Tcell_7	Data with Hierarchical structure	sclens	snn	12	2,4,5,6,7,10,11,12,13,14	0.5263157894736842
+sim_Tcell_7	Data with Hierarchical structure	sclens	knn	12	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_7	Data with Hierarchical structure	sclens	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_8	Data with Hierarchical structure	sclens	snn	12	2,3,5,6,8,9,10,11,12,14,16	0.5789473684210527
+sim_Tcell_8	Data with Hierarchical structure	sclens	knn	12	2,3,5,6,7,8,9,10,11,12,13	0.5789473684210527
+sim_Tcell_8	Data with Hierarchical structure	sclens	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_9	Data with Hierarchical structure	sclens	snn	13	2,3,4,5,6,7,8,10,11,12,13,14,15	0.6842105263157895
+sim_Tcell_9	Data with Hierarchical structure	sclens	knn	10	2,3,4,5,7,8,9,10	0.4210526315789473
+sim_Tcell_9	Data with Hierarchical structure	sclens	umap	11	2,3,4,5,6,7,8,9,10,11,12,14	0.631578947368421
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	sclens	snn	9	4,5,6,7,9,10,11,12,16	0.4736842105263158
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	sclens	knn	9	3,4,5,6,7,8,9	0.3684210526315789
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	sclens	umap	9	6,7,8,9	0.2105263157894737
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	sclens	snn	8	3,4,5,6,7,8,9,10,11,12,13	0.5789473684210527
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	sclens	knn	9	2,3,4,5,6,7,8,9,10	0.4736842105263158
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	sclens	umap	10	5,6,7,8,9,10,11	0.3684210526315789
+sim_TMuris_1019	Data w/o Hierarchical structure	sclens	snn	10	7,8,9,10,11,12,13,14,15	0.4736842105263158
+sim_TMuris_1019	Data w/o Hierarchical structure	sclens	knn	10	5,6,7,8,9,10,11	0.3684210526315789
+sim_TMuris_1019	Data w/o Hierarchical structure	sclens	umap	10	9,10,11,12,13,15,16	0.3684210526315789
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	sclens	snn	8	7,8,9,10,11,12,13	0.3684210526315789
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	sclens	knn	10	5,6,7,8,9,10	0.3157894736842105
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	sclens	umap	10	9,10	0.1052631578947368
+sim_TMuris_2006	Data w/o Hierarchical structure	sclens	snn	10	10,11,12	0.1578947368421053
+sim_TMuris_2006	Data w/o Hierarchical structure	sclens	knn	10	9,10,11,12,13	0.2631578947368421
+sim_TMuris_2006	Data w/o Hierarchical structure	sclens	umap	10	10,12,13,14	0.2105263157894737
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	sclens	snn	8	7,8,9,10,11,12,14,15,17,18,20	0.5789473684210527
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	sclens	knn	8	4,5,6,7,8,9	0.3157894736842105
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	sclens	umap	8	8,9	0.1052631578947368
+sim_TMuris_2485	Data w/o Hierarchical structure	sclens	snn	3	3,4,5,6,7,8,9,12,13,16	0.5263157894736842
+sim_TMuris_2485	Data w/o Hierarchical structure	sclens	knn	3	2,3	0.1052631578947368
+sim_TMuris_2485	Data w/o Hierarchical structure	sclens	umap	4	4	0.05263157894736842
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	sclens	snn	14	7,8,9,10,11,12,13,14,15,16,17,18,19,20	0.7368421052631579
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	sclens	knn	10	6,7,8,9,10,11,12,14,17	0.4736842105263158
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	sclens	umap	10	10	0.05263157894736842
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	sclens	snn	10	6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	0.7894736842105263
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	sclens	knn	10	4,5,6,7,8,9,10	0.3684210526315789
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	sclens	umap	10	10	0.05263157894736842
+sim_TMuris_3016	Data w/o Hierarchical structure	sclens	snn	10	10,11,12	0.1578947368421053
+sim_TMuris_3016	Data w/o Hierarchical structure	sclens	knn	10	7,8,9,10,11,12	0.3157894736842105
+sim_TMuris_3016	Data w/o Hierarchical structure	sclens	umap	10	10	0.05263157894736842
+sim_TMuris_3501	Data w/o Hierarchical structure	sclens	snn	6	3,4,5,6,7,8,9,10,12,13,14,15,16,18,19	0.7894736842105263
+sim_TMuris_3501	Data w/o Hierarchical structure	sclens	knn	6	2,3,4,5,6	0.2631578947368421
+sim_TMuris_3501	Data w/o Hierarchical structure	sclens	umap	6	6	0.05263157894736842
+sim_TMuris_3966	Data w/o Hierarchical structure	sclens	snn	10	10,11,14,17	0.2105263157894737
+sim_TMuris_3966	Data w/o Hierarchical structure	sclens	knn	10	9,10,11	0.1578947368421053
+sim_TMuris_3966	Data w/o Hierarchical structure	sclens	umap	10	10,11	0.1052631578947368
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	sclens	snn	10	8,9,10,11,12,13,14,15,17,20	0.5263157894736842
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	sclens	knn	10	8,9,10,11,12	0.2631578947368421
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	sclens	umap	10	10	0.05263157894736842
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	sclens	snn	10	9,10,11,12,13,14,15,16,17,18	0.5263157894736842
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	sclens	knn	10	5,6,7,8,9,10,11	0.3684210526315789
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	sclens	umap	10	9,10,11,12	0.2105263157894737
+sim_TMuris_4244	Data w/o Hierarchical structure	sclens	snn	7	4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20	0.8421052631578947
+sim_TMuris_4244	Data w/o Hierarchical structure	sclens	knn	7	4,5,6,7,8	0.2631578947368421
+sim_TMuris_4244	Data w/o Hierarchical structure	sclens	umap	7	7,8	0.1052631578947368
+sim_TMuris_4827	Data w/o Hierarchical structure	sclens	snn	6	4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	0.8947368421052632
+sim_TMuris_4827	Data w/o Hierarchical structure	sclens	knn	7	2,3,4,5,6,7	0.3157894736842105
+sim_TMuris_4827	Data w/o Hierarchical structure	sclens	umap	7	6,7	0.1052631578947368
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	sclens	snn	15	6,7,8,9,10,11,12,13,14,15,16,18,19,20	0.7368421052631579
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	sclens	knn	10	5,6,7,8,9,10,11,12,13,15,16,17,18	0.6842105263157895
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	sclens	umap	10	10,11	0.1052631578947368
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	sclens	snn	11	10,11,12,15,17,18,19	0.3684210526315789
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	sclens	knn	10	7,8,9,10,11	0.2631578947368421
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	sclens	umap	10	10	0.05263157894736842
+sim_TMuris_5033	Data w/o Hierarchical structure	sclens	snn	10	10,11	0.1052631578947368
+sim_TMuris_5033	Data w/o Hierarchical structure	sclens	knn	10	10	0.05263157894736842
+sim_TMuris_5033	Data w/o Hierarchical structure	sclens	umap	10	10	0.05263157894736842
+Trapnell	Data w/o Hierarchical structure	sclens	snn	3	2,3,4,5,6,8,9,10,11	0.4736842105263158
+Trapnell	Data w/o Hierarchical structure	sclens	knn	4	2,5	0.1052631578947368
+Trapnell	Data w/o Hierarchical structure	sclens	umap	2	2,3,4,5,6,9,10,11,12,16,17	0.5789473684210527
+ZhengMix_12073	Data with Hierarchical structure	sclens	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17	0.8421052631578947
+ZhengMix_12073	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_12073	Data with Hierarchical structure	sclens	umap	9	3,4,5,6,7,8,9,10,11	0.4736842105263158
+ZhengMix_2410	Data with Hierarchical structure	sclens	snn	7	2,3,4,5,6,7,8,9,10,11,18	0.5789473684210527
+ZhengMix_2410	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_2410	Data with Hierarchical structure	sclens	umap	7	2,3,4,5,6,8,9,10,11	0.4736842105263158
+ZhengMix_3308	Data with Hierarchical structure	sclens	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14,15,18	0.7894736842105263
+ZhengMix_3308	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_3308	Data with Hierarchical structure	sclens	umap	7	2,3,4,5,6,7,8,9,10,11	0.5263157894736842
+ZhengMix_3706	Data with Hierarchical structure	sclens	snn	10	2,3,4,5,7,8,10,11,12,13,14,15	0.631578947368421
+ZhengMix_3706	Data with Hierarchical structure	sclens	knn	8	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_3706	Data with Hierarchical structure	sclens	umap	7	2,3,4,5,6,7,13,14	0.4210526315789473
+ZhengMix_3869	Data with Hierarchical structure	sclens	snn	8	2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18	0.8421052631578947
+ZhengMix_3869	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6,7	0.3157894736842105
+ZhengMix_3869	Data with Hierarchical structure	sclens	umap	9	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+ZhengMix_4292	Data with Hierarchical structure	sclens	snn	7	2,3,4,5,6,7,8,9,10,11,12,13,14,15	0.7368421052631579
+ZhengMix_4292	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6,8	0.3157894736842105
+ZhengMix_4292	Data with Hierarchical structure	sclens	umap	12	2,3,4,5,6,8,9,12	0.4210526315789473
+ZhengMix_4757	Data with Hierarchical structure	sclens	snn	7	3,4,5,6,8,9,12,13,15,16,17	0.5789473684210527
+ZhengMix_4757	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_4757	Data with Hierarchical structure	sclens	umap	10	3,4,5,6	0.2105263157894737
+ZhengMix_5730	Data with Hierarchical structure	sclens	snn	10	2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19	0.9473684210526315
+ZhengMix_5730	Data with Hierarchical structure	sclens	knn	8	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_5730	Data with Hierarchical structure	sclens	umap	11	3,4,5,7,8,9,10,11,12,14,15,16,17	0.6842105263157895
+ZhengMix_785	Data with Hierarchical structure	sclens	snn	9	2,3,4,5,6,7,8,9,11,14,16	0.5789473684210527
+ZhengMix_785	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6,9	0.3157894736842105
+ZhengMix_785	Data with Hierarchical structure	sclens	umap	8	2,3,4,5	0.2105263157894737
+ZhengMix_7993	Data with Hierarchical structure	sclens	snn	13	2,3,4,5,6,7,8,9,10,11,12,14,15,16,18,19	0.8421052631578947
+ZhengMix_7993	Data with Hierarchical structure	sclens	knn	8	2,3,4,5,6	0.2631578947368421
+ZhengMix_7993	Data with Hierarchical structure	sclens	umap	8	2,3,4,5,6,8	0.3157894736842105
+ZhengMix4eq	Data with Hierarchical structure	sclens	snn	5	2,3,4,5,6,7,8,9,10	0.4736842105263158
+ZhengMix4eq	Data with Hierarchical structure	sclens	knn	5	2,3,4,5,6,7	0.3157894736842105
+ZhengMix4eq	Data with Hierarchical structure	sclens	umap	4	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix4ueq	Data with Hierarchical structure	sclens	snn	4	2,3,4,5,6,7,8,9,12	0.4736842105263158
+ZhengMix4ueq	Data with Hierarchical structure	sclens	knn	4	2,3,4,5	0.2105263157894737
+ZhengMix4ueq	Data with Hierarchical structure	sclens	umap	4	2,3,4,5,6,8	0.3157894736842105
+ZhengMix8eq	Data with Hierarchical structure	sclens	snn	7	2,3,4,5,6,7,8,9,10	0.4736842105263158
+ZhengMix8eq	Data with Hierarchical structure	sclens	knn	7	2,3,4,5,6,7,8,10	0.4210526315789473
+ZhengMix8eq	Data with Hierarchical structure	sclens	umap	9	2,3,4,5,6,7,8,9	0.4210526315789473
+Koh	Data with Hierarchical structure	umap_run_in_julia	umap	9	2,3,4,6,7,8,9,10,11,12,14	0.5789473684210527
+Kumar	Data w/o Hierarchical structure	umap_run_in_julia	umap	3	2,3,5	0.1578947368421053
+sim_Tcell_1	Data with Hierarchical structure	umap_run_in_julia	umap	8	2,3,4,8,10	0.2631578947368421
+sim_Tcell_2	Data with Hierarchical structure	umap_run_in_julia	umap	10	2,4,7	0.1578947368421053
+sim_Tcell_3	Data with Hierarchical structure	umap_run_in_julia	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_4	Data with Hierarchical structure	umap_run_in_julia	umap	12	2,3,5,6,7,8,9,10,11,12,13	0.5789473684210527
+sim_Tcell_5	Data with Hierarchical structure	umap_run_in_julia	umap	12	2,3,4,5,6,7,8,9,10,11,12	0.5789473684210527
+sim_Tcell_6	Data with Hierarchical structure	umap_run_in_julia	umap	11	2,3,4,6,8,9,10,11,12	0.4736842105263158
+sim_Tcell_7	Data with Hierarchical structure	umap_run_in_julia	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_8	Data with Hierarchical structure	umap_run_in_julia	umap	13	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_9	Data with Hierarchical structure	umap_run_in_julia	umap	11	2,3,4,5,6,7,8,9,10,11	0.5263157894736842
+sim_Tcell_10	Data with Hierarchical structure	umap_run_in_julia	umap	12	2,3,4,5,6,7,8,9,10,11,12,13	0.631578947368421
+sim_Tcell_11	Data with Hierarchical structure	umap_run_in_julia	umap	12	2,3,5,6,7,8,9,10,11,12	0.5263157894736842
+sim_Tcell_12	Data with Hierarchical structure	umap_run_in_julia	umap	11	3,4,5,7,8,10,11	0.3684210526315789
+sim_Tcell_13	Data with Hierarchical structure	umap_run_in_julia	umap	12	2,3,4,6,7,9,10,11,12,13,14	0.5789473684210527
+sim_TMuris_1004_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	9	5,6,7,8,9	0.2631578947368421
+sim_TMuris_1005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	5,6,7,8,9,10,11	0.3684210526315789
+sim_TMuris_1019	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	9,10,11,12,15,16	0.3157894736842105
+sim_TMuris_2004_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	9,10	0.1052631578947368
+sim_TMuris_2006	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10,11,12,13	0.2105263157894737
+sim_TMuris_2006_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	8	8,9	0.1052631578947368
+sim_TMuris_2485	Data w/o Hierarchical structure	umap_run_in_julia	umap	4	4	0.05263157894736842
+sim_TMuris_3004_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10	0.05263157894736842
+sim_TMuris_3005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10	0.05263157894736842
+sim_TMuris_3016	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10,11	0.1052631578947368
+sim_TMuris_3501	Data w/o Hierarchical structure	umap_run_in_julia	umap	6	6	0.05263157894736842
+sim_TMuris_3966	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10,11	0.1052631578947368
+sim_TMuris_4005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10	0.05263157894736842
+sim_TMuris_4005_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	9,10,11	0.1578947368421053
+sim_TMuris_4244	Data w/o Hierarchical structure	umap_run_in_julia	umap	7	7	0.05263157894736842
+sim_TMuris_4827	Data w/o Hierarchical structure	umap_run_in_julia	umap	7	6,7	0.1052631578947368
+sim_TMuris_5005_im10	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10	0.05263157894736842
+sim_TMuris_5005_im20	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10	0.05263157894736842
+sim_TMuris_5033	Data w/o Hierarchical structure	umap_run_in_julia	umap	10	10	0.05263157894736842
+Trapnell	Data w/o Hierarchical structure	umap_run_in_julia	umap	2	2,3,4,5,11	0.2631578947368421
+ZhengMix_785	Data with Hierarchical structure	umap_run_in_julia	umap	7	2,3,4,5	0.2105263157894737
+ZhengMix_2410	Data with Hierarchical structure	umap_run_in_julia	umap	7	2,3,4,5,6,8,9,11	0.4210526315789473
+ZhengMix_3308	Data with Hierarchical structure	umap_run_in_julia	umap	7	2,3,4,5,6,7,9,10,11	0.4736842105263158
+ZhengMix_3706	Data with Hierarchical structure	umap_run_in_julia	umap	7	2,3,4,5,6,7,8	0.3684210526315789
+ZhengMix_3869	Data with Hierarchical structure	umap_run_in_julia	umap	8	2,3,4,5,6,8,9,10	0.4210526315789473
+ZhengMix_4292	Data with Hierarchical structure	umap_run_in_julia	umap	10	2,3,4,5,8	0.2631578947368421
+ZhengMix_4757	Data with Hierarchical structure	umap_run_in_julia	umap	9	3,4,5,6	0.2105263157894737
+ZhengMix_5730	Data with Hierarchical structure	umap_run_in_julia	umap	10	2,3,4,5,6,7,8,9,10,11,12,14,16	0.6842105263157895
+ZhengMix_7993	Data with Hierarchical structure	umap_run_in_julia	umap	7	2,3,4,5,6	0.2631578947368421
+ZhengMix_12073	Data with Hierarchical structure	umap_run_in_julia	umap	8	2,3,4,5,6,7,8,9,10	0.4736842105263158
+ZhengMix4eq	Data with Hierarchical structure	umap_run_in_julia	umap	4	2,3,4,5,6,7,8,9	0.4210526315789473
+ZhengMix4ueq	Data with Hierarchical structure	umap_run_in_julia	umap	5	2,3,4,5,6	0.2631578947368421
+ZhengMix8eq	Data with Hierarchical structure	umap_run_in_julia	umap	9	2,3,4,5,6,7	0.3157894736842105
